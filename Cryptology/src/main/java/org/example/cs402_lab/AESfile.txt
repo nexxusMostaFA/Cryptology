@@ -1,0 +1,4438 @@
+============ AES-128 ENCRYPTION ============
+Plaintext: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+Key: DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+
+Round 0 (AddRoundKey):
+┌─────────────────────────┐
+│ 00 00 00 00 │
+│ 00 00 00 00 │
+│ 00 00 00 00 │
+│ 00 00 00 00 │
+└─────────────────────────┘
+Round 1:
+SubBytes:
+┌─────────────────────────┐
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+│ 63 63 63 63 │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ 7E A3 7E A3 │
+│ 7F A2 7F A2 │
+│ 7F A2 7F A2 │
+│ 7F A2 7F A2 │
+└─────────────────────────┘
+Round 2:
+SubBytes:
+┌─────────────────────────┐
+│ F3 0A F3 0A │
+│ D2 3A D2 3A │
+│ D2 3A D2 3A │
+│ D2 3A D2 3A │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ F3 0A F3 0A │
+│ 3A D2 3A D2 │
+│ D2 3A D2 3A │
+│ 3A D2 3A D2 │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ 5B 91 5B 91 │
+│ D0 29 D0 29 │
+│ 38 C1 38 C1 │
+│ 92 49 92 49 │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ 3C 36 E1 EB │
+│ B4 8C 69 51 │
+│ 5C 64 81 B9 │
+│ 34 2E E9 F3 │
+└─────────────────────────┘
+Round 3:
+SubBytes:
+┌─────────────────────────┐
+│ EB 05 F8 E9 │
+│ 8D 64 F9 D1 │
+│ 4A 43 0C 56 │
+│ 18 31 1E 0D │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ EB 05 F8 E9 │
+│ 64 F9 D1 8D │
+│ 0C 56 4A 43 │
+│ 0D 18 31 1E │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ 60 54 F8 18 │
+│ 3A 0E AE 33 │
+│ 80 78 EE C0 │
+│ 54 90 EA D2 │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ BF 2C 3A A0 │
+│ E2 73 6A 8F │
+│ 10 4D 62 34 │
+│ 28 8B 8A 08 │
+└─────────────────────────┘
+Round 4:
+SubBytes:
+┌─────────────────────────┐
+│ 08 71 80 E0 │
+│ 98 8F 02 73 │
+│ CA E3 AA 18 │
+│ 34 3D 7E 30 │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ 08 71 80 E0 │
+│ 8F 02 73 98 │
+│ AA 18 CA E3 │
+│ 30 34 3D 7E │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ 00 C8 79 F5 │
+│ D8 69 1E 8B │
+│ 98 1F 3B 27 │
+│ 5D E1 58 BC │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ B2 02 71 45 │
+│ BF 73 C0 E9 │
+│ 5F ED 45 AD │
+│ 4D EA 33 0D │
+└─────────────────────────┘
+Round 5:
+SubBytes:
+┌─────────────────────────┐
+│ 37 77 A3 6E │
+│ 08 8F BA 1E │
+│ CF 55 6E 95 │
+│ E3 87 C3 D7 │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ 37 77 A3 6E │
+│ 8F BA 1E 08 │
+│ 6E 95 CF 55 │
+│ D7 E3 87 C3 │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ 5D 4D 37 52 │
+│ 57 5F 52 42 │
+│ 06 C2 AA 92 │
+│ 0D 6B 3A 72 │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ 55 8F FD 28 │
+│ 4E 5C 8F FD │
+│ 09 3F 29 9B │
+│ FA 97 AD 54 │
+└─────────────────────────┘
+Round 6:
+SubBytes:
+┌─────────────────────────┐
+│ FC 73 54 34 │
+│ 2F 4A 73 54 │
+│ 01 75 A5 14 │
+│ 2D 88 95 20 │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ FC 73 54 34 │
+│ 4A 73 54 2F │
+│ A5 14 01 75 │
+│ 20 2D 88 95 │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ B8 4A DD F9 │
+│ BC 84 77 60 │
+│ 87 5F 81 55 │
+│ B0 A8 A2 37 │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ 98 A8 F5 AB │
+│ A4 9F B1 19 │
+│ 7F 5A 07 DA │
+│ 9D 79 E4 57 │
+└─────────────────────────┘
+Round 7:
+SubBytes:
+┌─────────────────────────┐
+│ 46 C2 E6 62 │
+│ 49 DB C8 D4 │
+│ D2 BE C5 57 │
+│ 5E B6 69 5B │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ 46 C2 E6 62 │
+│ DB C8 D4 49 │
+│ C5 57 D2 BE │
+│ 5B 5E B6 69 │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ 64 D5 D4 C8 │
+│ E4 EE 8E 40 │
+│ E1 46 4C F7 │
+│ 62 7E 40 83 │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ B2 E1 C8 86 │
+│ 8F 9E 38 8F │
+│ C9 6B E7 D3 │
+│ 4F 82 FA 59 │
+└─────────────────────────┘
+Round 8:
+SubBytes:
+┌─────────────────────────┐
+│ 37 F8 E8 44 │
+│ 73 0B 07 73 │
+│ DD 7F 94 66 │
+│ 84 13 2D CB │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ 37 F8 E8 44 │
+│ 0B 07 73 73 │
+│ 94 66 DD 7F │
+│ CB 84 13 2D │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ 2C 00 90 4F │
+│ 4D D8 61 0E │
+│ 49 A4 0F BE │
+│ 4B 61 AB 9A │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ F0 E8 64 F5 │
+│ 10 F5 FA 5A │
+│ 36 F6 F6 63 │
+│ 49 9F EF 04 │
+└─────────────────────────┘
+Round 9:
+SubBytes:
+┌─────────────────────────┐
+│ 8C 9B 43 E6 │
+│ CA E6 2D BE │
+│ 05 42 42 FB │
+│ 3B DB DF F2 │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ 8C 9B 43 E6 │
+│ E6 2D BE CA │
+│ 42 FB 05 42 │
+│ F2 3B DB DF │
+└─────────────────────────┘
+MixColumns:
+┌─────────────────────────┐
+│ 82 9A 81 0F │
+│ 6F EC F0 70 │
+│ E3 16 81 D2 │
+│ D4 16 D3 1C │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ 65 95 7A 4E │
+│ F3 5D DA 0E │
+│ 97 30 5E D0 │
+│ 22 1E 9F CE │
+└─────────────────────────┘
+Round 10 (Final):
+SubBytes:
+┌─────────────────────────┐
+│ 4D 2A DA 2F │
+│ 0D 4C 57 AB │
+│ 88 04 58 70 │
+│ 93 72 DB 8B │
+└─────────────────────────┘
+ShiftRows:
+┌─────────────────────────┐
+│ 4D 2A DA 2F │
+│ 4C 57 AB 0D │
+│ 58 70 88 04 │
+│ 8B 93 72 DB │
+└─────────────────────────┘
+AddRoundKey:
+┌─────────────────────────┐
+│ 6F 07 0C B8 │
+│ A7 0D DB 03 │
+│ 99 97 B0 3E │
+│ FE EE 43 38 │
+└─────────────────────────┘
+Ciphertext: 6FA799FE070D97EE0CDBB043B8033E38
+===========================================
+=== Starting AES Encryption ===
+Original Plaintext: helloadsfasdfadsfasdf
+Key: aaaaaaaaaaaaaaaa
+Padded Plaintext: 68 65 6C 6C 6F 61 64 73 66 61 73 64 66 61 64 73 66 61 73 64 66 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+
+Round Key 1:
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+
+Round Key 2:
+[52, 51, 51, A6]
+[BC, BE, BE, 49]
+[33, 30, 30, C7]
+[DD, DF, DF, 28]
+
+Round Key 3:
+[C8, CF, 65, 67]
+[74, 71, DB, 2E]
+[47, 41, EB, E9]
+[9A, 9E, 34, C1]
+
+Round Key 4:
+[CB, D7, 1D, DF]
+[BF, A6, C6, F1]
+[F8, E7, 2D, 18]
+[62, 79, 19, D9]
+
+Round Key 5:
+[6D, 03, 28, 75]
+[D2, A5, EE, 84]
+[2A, 42, C3, 9C]
+[48, 3B, DA, 45]
+
+Round Key 6:
+[AF, 54, 46, 27]
+[7D, F1, A8, A3]
+[57, B3, 6B, 3F]
+[1F, 88, B1, 7A]
+
+Round Key 7:
+[2B, 9C, 9C, E7]
+[56, 6D, 34, 44]
+[01, DE, 5F, 7B]
+[1E, 56, EE, 01]
+
+Round Key 8:
+[1A, B4, E0, 95]
+[4C, D9, D4, D1]
+[4D, 07, 8B, AA]
+[53, 51, 65, AB]
+
+Round Key 9:
+[D0, F9, 82, 78]
+[9C, 20, 56, A9]
+[D1, 27, DD, 03]
+[82, 76, B8, A8]
+
+Round Key 10:
+[DE, 95, 40, 6B]
+[42, B5, 16, C2]
+[93, 92, CB, C1]
+[11, E4, 73, 69]
+
+Processing Block 1 of 2
+Block Content: 68 65 6C 6C 6F 61 64 73 66 61 73 64 66 61 64 73
+Initial State:
+[68, 6F, 66, 66]
+[65, 61, 61, 61]
+[6C, 64, 73, 64]
+[6C, 73, 64, 73]
+After Initial AddRoundKey:
+[09, 0E, 07, 07]
+[04, 00, 00, 00]
+[0D, 05, 12, 05]
+[0D, 12, 05, 12]
+After SubBytes (Round 1):
+[01, AB, C5, C5]
+[F2, 63, 63, 63]
+[D7, 6B, C9, 6B]
+[D7, C9, 6B, C9]
+After ShiftRows (Round 1):
+[01, AB, C5, C5]
+[63, 63, 63, F2]
+[C9, 6B, D7, 6B]
+[C9, D7, C9, 6B]
+After MixColumns (Round 1):
+[A7, 154, 12A, 9C]
+[14E, 07, 1A8, 1EC]
+[AB, 17C, 53, 5C]
+[120, 5B, 69, 11B]
+After AddRoundKey (Round 1):
+[28, 1BA, 1A5, 72]
+[1C0, E8, 126, 103]
+[25, 193, DD, B3]
+[1AE, B4, E7, 1F4]
+After SubBytes (Round 2):
+[34, F4, 06, 40]
+[BA, 9B, F7, 7B]
+[3F, DC, C1, 6D]
+[E4, 8D, 94, BF]
+After ShiftRows (Round 2):
+[34, F4, 06, 40]
+[9B, F7, 7B, BA]
+[C1, 6D, 3F, DC]
+[BF, E4, 8D, 94]
+After MixColumns (Round 2):
+[1A0, 78, 33, 11D]
+[FE, 152, 3C, C4]
+[EC, 1EE, 18F, FE]
+[163, 4E, 14F, 195]
+After AddRoundKey (Round 2):
+[1F2, C4, 00, 1C0]
+[AF, 1EC, 0C, 1B]
+[BD, 150, 1BF, 21]
+[1C5, 07, 188, 1BD]
+After SubBytes (Round 3):
+[89, 1C, 63, BA]
+[79, CE, FE, AF]
+[7A, 53, 08, FD]
+[A6, C5, C4, 7A]
+After ShiftRows (Round 3):
+[89, 1C, 63, BA]
+[CE, FE, AF, 79]
+[08, FD, 7A, 53]
+[7A, A6, C5, C4]
+After MixColumns (Round 3):
+[32, 17A, 193, 173]
+[16C, 41, 16D, 79]
+[D9, F2, 16C, 132]
+[1B2, 170, 1E1, 6C]
+After AddRoundKey (Round 3):
+[FA, 10E, 1D4, 1E9]
+[1A3, 30, 12C, E7]
+[BC, 29, 187, 106]
+[1D5, 15E, 108, AD]
+After SubBytes (Round 4):
+[2D, AB, 48, 1E]
+[0A, 04, 71, 94]
+[65, A5, 17, 6F]
+[03, 58, 30, 95]
+After ShiftRows (Round 4):
+[2D, AB, 48, 1E]
+[04, 71, 94, 0A]
+[17, 6F, 65, A5]
+[95, 03, 58, 30]
+After MixColumns (Round 4):
+[D4, 1B2, 10A, B7]
+[89, FB, 18C, 1CE]
+[1A3, 01, FE, 115]
+[155, 1FE, 99, ED]
+After AddRoundKey (Round 4):
+[1F, 10D, 1F2, D5]
+[5E, 5D, 16B, 1B7]
+[1BE, C7, D3, 10C]
+[18A, 10F, 81, 34]
+After SubBytes (Round 5):
+[C0, D7, 89, 03]
+[58, 4C, 7F, A9]
+[AE, C6, 66, FE]
+[7E, 76, 0C, 18]
+After ShiftRows (Round 5):
+[C0, D7, 89, 03]
+[4C, 7F, A9, 58]
+[66, FE, AE, C6]
+[18, 7E, 76, 0C]
+After MixColumns (Round 5):
+[131, 1B4, 31, 24]
+[EA, 14E, 5F, 1EE]
+[68, 1CD, 1FD, 1D8]
+[141, 11F, 16B, 83]
+After AddRoundKey (Round 5):
+[15C, 166, 1B, 6C]
+[E9, 1EB, 1D, 1D5]
+[40, 123, 13E, 102]
+[134, 19B, 1F7, C6]
+After SubBytes (Round 6):
+[4A, 33, AF, 50]
+[1E, E9, A4, 03]
+[09, 26, B2, 77]
+[18, 14, 68, B4]
+After ShiftRows (Round 6):
+[4A, 33, AF, 50]
+[E9, A4, 03, 1E]
+[B2, 77, 09, 26]
+[B4, 18, 14, 68]
+After MixColumns (Round 6):
+[1B2, 1FE, 15D, CC]
+[FA, 1E1, A6, 6E]
+[1B, 51, 82, BA]
+[1F6, B6, 1C8, 18]
+After AddRoundKey (Round 6):
+[11D, 183, 10A, D3]
+[AE, 110, 15, E6]
+[5D, F9, E9, 0B]
+[1D1, 15, 1F7, 62]
+After SubBytes (Round 7):
+[A4, EC, 67, 66]
+[E4, CA, 59, 8E]
+[4C, 99, 1E, 2B]
+[3E, 59, 68, AA]
+After ShiftRows (Round 7):
+[A4, EC, 67, 66]
+[CA, 59, 8E, E4]
+[1E, 2B, 4C, 99]
+[AA, 3E, 59, 68]
+After MixColumns (Round 7):
+[A2, 13D, 152, 10A]
+[1A3, 1D, 1ED, 6D]
+[1B7, A1, 9A, 113]
+[6C, 121, D9, 07]
+After AddRoundKey (Round 7):
+[89, 16B, 153, 114]
+[13F, 70, 133, 3B]
+[12B, 95, C5, 1FD]
+[8B, 165, A2, 06]
+After SubBytes (Round 8):
+[A7, 7F, ED, FA]
+[75, 51, C3, E2]
+[F1, 2A, A6, 54]
+[3D, 4D, 3A, 6F]
+After ShiftRows (Round 8):
+[A7, 7F, ED, FA]
+[51, C3, E2, 75]
+[A6, 54, F1, 2A]
+[6F, 3D, 4D, 3A]
+After MixColumns (Round 8):
+[16F, 1C9, 40, 160]
+[19B, 123, 77, 54]
+[110, 53, 121, 95]
+[1DB, 6C, 1A5, 13E]
+After AddRoundKey (Round 8):
+[175, 185, 0D, 133]
+[12F, 1FA, 70, 05]
+[1F0, 87, 1AA, F0]
+[14E, BD, 10F, 195]
+After SubBytes (Round 9):
+[9D, 97, D7, C3]
+[15, 2D, 51, 6B]
+[8C, 17, AC, 8C]
+[2F, 7A, 76, 2A]
+After ShiftRows (Round 9):
+[9D, 97, D7, C3]
+[2D, 51, 6B, 15]
+[AC, 8C, 8C, 17]
+[2A, 2F, 7A, 76]
+After MixColumns (Round 9):
+[1D0, 165, 1FE, 1C3]
+[102, 195, 1F4, A6]
+[18D, 1B4, 131, 62]
+[169, 121, 171, 1B0]
+After AddRoundKey (Round 9):
+[100, 1F9, 12F, 141]
+[1FB, 1B5, 1D3, D0]
+[10F, 1E2, 1EC, DA]
+[111, 188, 172, 118]
+After SubBytes (Final Round):
+[63, 99, 15, 83]
+[0F, D5, 66, 70]
+[76, 98, CE, 57]
+[82, C4, 40, AD]
+After ShiftRows (Final Round):
+[63, 99, 15, 83]
+[D5, 66, 70, 0F]
+[CE, 57, 76, 98]
+[AD, 82, C4, 40]
+After Final AddRoundKey:
+[BD, DB, 86, 92]
+[40, D3, E2, EB]
+[8E, 41, BD, EB]
+[C6, 40, 05, 29]
+Encrypted Block: BD 40 8E C6 DB D3 41 40 86 E2 BD 05 92 EB EB 29
+
+Processing Block 2 of 2
+Block Content: 66 61 73 64 66 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+Initial State:
+[66, 66, 0B, 0B]
+[61, 0B, 0B, 0B]
+[73, 0B, 0B, 0B]
+[64, 0B, 0B, 0B]
+After Initial AddRoundKey:
+[07, 07, 6A, 6A]
+[00, 6A, 6A, 6A]
+[12, 6A, 6A, 6A]
+[05, 6A, 6A, 6A]
+After SubBytes (Round 1):
+[C5, C5, 02, 02]
+[63, 02, 02, 02]
+[C9, 02, 02, 02]
+[6B, 02, 02, 02]
+After ShiftRows (Round 1):
+[C5, C5, 02, 02]
+[02, 02, 02, 63]
+[02, 02, C9, 02]
+[02, 6B, 02, 02]
+After MixColumns (Round 1):
+[197, 1FE, C9, A1]
+[C5, AC, 144, C0]
+[C5, 7E, 18F, 63]
+[150, 182, C9, 63]
+After AddRoundKey (Round 1):
+[118, 110, 46, 4F]
+[4B, 43, 1CA, 2F]
+[4B, 91, 101, 8C]
+[1DE, 16D, 47, 8C]
+After SubBytes (Round 2):
+[AD, CA, 5A, 84]
+[B3, 1A, 74, 15]
+[B3, 81, 7C, 64]
+[1D, 3C, A0, 64]
+After ShiftRows (Round 2):
+[AD, CA, 5A, 84]
+[1A, 74, 15, B3]
+[7C, 64, B3, 81]
+[64, 1D, 3C, A0]
+After MixColumns (Round 2):
+[177, 16A, 04, FC]
+[79, 93, 182, C1]
+[E3, 51, 176, D5]
+[142, 16F, 30, FE]
+After AddRoundKey (Round 2):
+[125, 1D6, 37, 21]
+[28, 2D, 1B2, 1E]
+[B2, EF, 146, 0A]
+[1E4, 126, F7, D6]
+After SubBytes (Round 3):
+[3F, F6, 9A, FD]
+[34, D8, 37, 72]
+[37, DF, 5A, 67]
+[69, F7, 68, F6]
+After ShiftRows (Round 3):
+[3F, F6, 9A, FD]
+[D8, 37, 72, 34]
+[5A, 67, 37, DF]
+[F6, 69, F7, 68]
+After MixColumns (Round 3):
+[1A1, 1A0, 179, 10A]
+[18C, 58, D0, 187]
+[152, B4, 184, 1D4]
+[134, 183, 05, 127]
+After AddRoundKey (Round 3):
+[169, 1D4, 13E, 190]
+[143, 29, 91, 119]
+[137, 6F, 16F, 1E0]
+[153, 1AD, EC, 1E6]
+After SubBytes (Round 4):
+[F9, 48, B2, 60]
+[1A, A5, 81, D4]
+[9A, A8, A8, E1]
+[ED, 95, CE, 8E]
+After ShiftRows (Round 4):
+[F9, 48, B2, 60]
+[A5, 81, D4, 1A]
+[A8, E1, 9A, A8]
+[8E, ED, 95, CE]
+After MixColumns (Round 4):
+[3B, 104, 17, 88]
+[C5, 84, 21, 179]
+[9E, 3C, ED, 78]
+[1A, 179, B2, 195]
+After AddRoundKey (Round 4):
+[F0, 1BB, EF, EA]
+[12, 22, C6, 100]
+[83, FA, C0, 61]
+[C5, 188, AA, 14C]
+After SubBytes (Round 5):
+[8C, EA, DF, 87]
+[C9, 93, B4, 63]
+[EC, 2D, BA, EF]
+[A6, C4, AC, 29]
+After ShiftRows (Round 5):
+[8C, EA, DF, 87]
+[93, B4, 63, C9]
+[BA, EF, EC, 2D]
+[29, A6, C4, AC]
+After MixColumns (Round 5):
+[3E, 41, 128, D4]
+[4D, 15, 1F2, 1D5]
+[10B, 6A, 28, 1FB]
+[1F4, 29, 66, 35]
+After AddRoundKey (Round 5):
+[53, 93, 102, 9C]
+[4E, B0, 1B0, 1EE]
+[123, 84, EB, 121]
+[181, AD, FA, 70]
+After SubBytes (Round 6):
+[ED, DC, 77, DE]
+[2F, E7, E7, 28]
+[26, 5F, E9, FD]
+[0C, 95, 2D, 51]
+After ShiftRows (Round 6):
+[ED, DC, 77, DE]
+[E7, E7, 28, 2F]
+[E9, FD, 26, 5F]
+[51, 0C, 95, 2D]
+After MixColumns (Round 6):
+[4B, 60, 25, 1A4]
+[49, 19, D8, 4C]
+[130, 1CE, 1B7, 38]
+[180, 17D, 1A6, 153]
+After AddRoundKey (Round 6):
+[E4, 1D, 72, 1BB]
+[1D, E8, 6B, C4]
+[176, 166, 1DC, 89]
+[1A7, 1DE, 199, 129]
+After SubBytes (Round 7):
+[69, A4, 40, EA]
+[A4, 9B, 7F, 1C]
+[38, 33, 86, A7]
+[5C, 1D, EE, A5]
+After ShiftRows (Round 7):
+[69, A4, 40, EA]
+[9B, 7F, 1C, A4]
+[86, A7, 38, 33]
+[A5, 5C, 1D, EE]
+After MixColumns (Round 7):
+[147, 129, 81, E5]
+[70, 1F4, 2D, 102]
+[11, 16A, 0B, 101]
+[1F7, 197, DE, 75]
+After AddRoundKey (Round 7):
+[16C, 17F, 80, FB]
+[EC, 199, F3, 154]
+[8D, 15E, 54, 1EF]
+[110, 1D3, A5, 74]
+After SubBytes (Round 8):
+[50, D2, CD, 0F]
+[CE, EE, 0D, 20]
+[5D, 58, 20, DF]
+[CA, 66, 06, 92]
+After ShiftRows (Round 8):
+[50, D2, CD, 0F]
+[EE, 0D, 20, CE]
+[20, DF, 5D, 58]
+[92, CA, 66, 06]
+After MixColumns (Round 8):
+[13B, 1BD, 1DA, 109]
+[165, 178, 0C, 166]
+[153, 3F, FD, 7B]
+[101, 30, 1FD, 8B]
+After AddRoundKey (Round 8):
+[121, 1F1, 197, 15A]
+[1D1, 1A1, 0B, 137]
+[1B3, EB, 76, 1E]
+[194, E1, 157, 20]
+After SubBytes (Round 9):
+[FD, A1, 88, BE]
+[3E, 32, 2B, 9A]
+[6D, E9, 38, 72]
+[22, F8, 5B, B7]
+After ShiftRows (Round 9):
+[FD, A1, 88, BE]
+[32, 2B, 9A, 3E]
+[38, 72, 6D, E9]
+[B7, 22, F8, 5B]
+After MixColumns (Round 9):
+[138, 174, 2B, 197]
+[66, 43, 1E8, 1B9]
+[17D, 08, 1DB, 1A4]
+[63, 1E5, 9F, 1B8]
+After AddRoundKey (Round 9):
+[1E8, 1E8, FA, 115]
+[9F, 63, 1CF, 1CF]
+[1FF, 5E, 106, 11C]
+[1B, 14C, 9C, 110]
+After SubBytes (Final Round):
+[9B, 9B, 2D, 59]
+[DB, FB, 8A, 8A]
+[16, 58, 6F, 9C]
+[AF, 29, DE, CA]
+After ShiftRows (Final Round):
+[9B, 9B, 2D, 59]
+[FB, 8A, 8A, DB]
+[6F, 9C, 16, 58]
+[CA, AF, 29, DE]
+After Final AddRoundKey:
+[45, D9, BE, 48]
+[6E, 3F, 18, 3F]
+[2F, 8A, DD, 2B]
+[A1, 6D, E8, B7]
+Encrypted Block: 45 6E 2F A1 D9 3F 8A 6D BE 18 DD E8 48 3F 2B B7
+
+Final Encrypted Result: BD 40 8E C6 DB D3 41 40 86 E2 BD 05 92 EB EB 2945 6E 2F A1 D9 3F 8A 6D BE 18 DD E8 48 3F 2B B7
+=== Starting AES Decryption ===
+Encrypted Input: BD408EC6DBD3414086E2BD0592EBEB29456E2FA1D93F8A6DBE18DDE8483F2BB7
+Key: aaaaaaaaaaaaaaaa
+
+Round Key 1:
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+
+Round Key 2:
+[52, 51, 51, A6]
+[BC, BE, BE, 49]
+[33, 30, 30, C7]
+[DD, DF, DF, 28]
+
+Round Key 3:
+[C8, CF, 65, 67]
+[74, 71, DB, 2E]
+[47, 41, EB, E9]
+[9A, 9E, 34, C1]
+
+Round Key 4:
+[CB, D7, 1D, DF]
+[BF, A6, C6, F1]
+[F8, E7, 2D, 18]
+[62, 79, 19, D9]
+
+Round Key 5:
+[6D, 03, 28, 75]
+[D2, A5, EE, 84]
+[2A, 42, C3, 9C]
+[48, 3B, DA, 45]
+
+Round Key 6:
+[AF, 54, 46, 27]
+[7D, F1, A8, A3]
+[57, B3, 6B, 3F]
+[1F, 88, B1, 7A]
+
+Round Key 7:
+[2B, 9C, 9C, E7]
+[56, 6D, 34, 44]
+[01, DE, 5F, 7B]
+[1E, 56, EE, 01]
+
+Round Key 8:
+[1A, B4, E0, 95]
+[4C, D9, D4, D1]
+[4D, 07, 8B, AA]
+[53, 51, 65, AB]
+
+Round Key 9:
+[D0, F9, 82, 78]
+[9C, 20, 56, A9]
+[D1, 27, DD, 03]
+[82, 76, B8, A8]
+
+Round Key 10:
+[DE, 95, 40, 6B]
+[42, B5, 16, C2]
+[93, 92, CB, C1]
+[11, E4, 73, 69]
+
+Processing Block 1 of 2
+Block Content: BD 40 8E C6 DB D3 41 40 86 E2 BD 05 92 EB EB 29
+Initial State:
+[BD, DB, 86, 92]
+[40, D3, E2, EB]
+[8E, 41, BD, EB]
+[C6, 40, 05, 29]
+After Initial AddRoundKey:
+[63, 99, 15, 83]
+[D5, 66, 70, 0F]
+[CE, 57, 76, 98]
+[AD, 82, C4, 40]
+After InverseShiftRows (Round 9):
+[63, 99, 15, 83]
+[0F, D5, 66, 70]
+[76, 98, CE, 57]
+[82, C4, 40, AD]
+After InverseSubBytes (Round 9):
+[00, F9, 2F, 41]
+[FB, B5, D3, D0]
+[0F, E2, EC, DA]
+[11, 88, 72, 18]
+After AddRoundKey (Round 9):
+[D0, 65, FE, C3]
+[02, 95, F4, A6]
+[8D, B4, 31, 62]
+[69, 21, 71, B0]
+After InverseMixColumns (Round 9):
+[19D, 197, 1D7, 7C3]
+[12D, 151, 16B, 415]
+[1AC, 18C, 18C, 617]
+[12A, 12F, 17A, 576]
+After InverseShiftRows (Round 8):
+[19D, 197, 1D7, 7C3]
+[415, 12D, 151, 16B]
+[18C, 617, 1AC, 18C]
+[12F, 17A, 576, 12A]
+After InverseSubBytes (Round 8):
+[75, 85, 0D, 33]
+[2F, FA, 70, 05]
+[F0, 87, AA, F0]
+[4E, BD, 0F, 95]
+After AddRoundKey (Round 8):
+[6F, C9, 40, 60]
+[9B, 23, 77, 54]
+[10, 53, 21, 95]
+[DB, 6C, A5, 3E]
+After InverseMixColumns (Round 8):
+[1A7, 57F, 4ED, 7FA]
+[151, 7C3, 6E2, 475]
+[1A6, 454, 5F1, 62A]
+[16F, 63D, 74D, 53A]
+After InverseShiftRows (Round 7):
+[1A7, 57F, 4ED, 7FA]
+[475, 151, 7C3, 6E2]
+[5F1, 62A, 1A6, 454]
+[63D, 74D, 53A, 16F]
+After InverseSubBytes (Round 7):
+[89, 6B, 53, 14]
+[3F, 70, 33, 3B]
+[2B, 95, C5, FD]
+[8B, 65, A2, 06]
+After AddRoundKey (Round 7):
+[A2, 3D, 52, 0A]
+[A3, 1D, ED, 6D]
+[B7, A1, 9A, 13]
+[6C, 21, D9, 07]
+After InverseMixColumns (Round 7):
+[6A4, 7EC, 567, 366]
+[5CA, 459, 78E, 2E4]
+[71E, 62B, 44C, 399]
+[4AA, 53E, 659, 268]
+After InverseShiftRows (Round 6):
+[6A4, 7EC, 567, 366]
+[2E4, 5CA, 459, 78E]
+[44C, 399, 71E, 62B]
+[53E, 659, 268, 4AA]
+After InverseSubBytes (Round 6):
+[1D, 83, 0A, D3]
+[AE, 10, 15, E6]
+[5D, F9, E9, 0B]
+[D1, 15, F7, 62]
+After AddRoundKey (Round 6):
+[B2, FE, 5D, CC]
+[FA, E1, A6, 6E]
+[1B, 51, 82, BA]
+[F6, B6, C8, 18]
+After InverseMixColumns (Round 6):
+[74A, 533, 7AF, 50]
+[4E9, 7A4, 403, 1E]
+[6B2, 477, 609, 26]
+[5B4, 618, 514, 68]
+After InverseShiftRows (Round 5):
+[74A, 533, 7AF, 50]
+[1E, 4E9, 7A4, 403]
+[609, 26, 6B2, 477]
+[618, 514, 68, 5B4]
+After InverseSubBytes (Round 5):
+[5C, 66, 1B, 6C]
+[E9, EB, 1D, D5]
+[40, 23, 3E, 02]
+[34, 9B, F7, C6]
+After AddRoundKey (Round 5):
+[31, B4, 31, 24]
+[EA, 4E, 5F, EE]
+[68, CD, FD, D8]
+[41, 1F, 6B, 83]
+After InverseMixColumns (Round 5):
+[7C0, 1D7, 489, 603]
+[44C, 17F, 6A9, 558]
+[666, 1FE, 5AE, 7C6]
+[518, 17E, 776, 40C]
+After InverseShiftRows (Round 4):
+[7C0, 1D7, 489, 603]
+[558, 44C, 17F, 6A9]
+[5AE, 7C6, 666, 1FE]
+[17E, 776, 40C, 518]
+After InverseSubBytes (Round 4):
+[1F, 0D, F2, D5]
+[5E, 5D, 6B, B7]
+[BE, C7, D3, 0C]
+[8A, 0F, 81, 34]
+After AddRoundKey (Round 4):
+[D4, B2, 0A, B7]
+[89, FB, 8C, CE]
+[A3, 01, FE, 15]
+[55, FE, 99, ED]
+After InverseMixColumns (Round 4):
+[42D, 7AB, 548, 61E]
+[604, 471, 794, 50A]
+[517, 66F, 465, 7A5]
+[795, 503, 658, 430]
+After InverseShiftRows (Round 3):
+[42D, 7AB, 548, 61E]
+[50A, 604, 471, 794]
+[465, 7A5, 517, 66F]
+[503, 658, 430, 795]
+After InverseSubBytes (Round 3):
+[FA, 0E, D4, E9]
+[A3, 30, 2C, E7]
+[BC, 29, 87, 06]
+[D5, 5E, 08, AD]
+After AddRoundKey (Round 3):
+[32, 7A, 93, 73]
+[6C, 41, 6D, 79]
+[D9, F2, 6C, 32]
+[B2, 70, E1, 6C]
+After InverseMixColumns (Round 3):
+[289, 71C, 163, 3BA]
+[3CE, 4FE, 1AF, 279]
+[208, 6FD, 17A, 353]
+[37A, 5A6, 1C5, 2C4]
+After InverseShiftRows (Round 2):
+[289, 71C, 163, 3BA]
+[279, 3CE, 4FE, 1AF]
+[17A, 353, 208, 6FD]
+[5A6, 1C5, 2C4, 37A]
+After InverseSubBytes (Round 2):
+[F2, C4, 00, C0]
+[AF, EC, 0C, 1B]
+[BD, 50, BF, 21]
+[C5, 07, 88, BD]
+After AddRoundKey (Round 2):
+[A0, 78, 33, 1D]
+[FE, 52, 3C, C4]
+[EC, EE, 8F, FE]
+[63, 4E, 4F, 95]
+After InverseMixColumns (Round 2):
+[734, 6F4, 406, 740]
+[49B, 5F7, 67B, 4BA]
+[6C1, 76D, 53F, 6DC]
+[5BF, 4E4, 78D, 594]
+After InverseShiftRows (Round 1):
+[734, 6F4, 406, 740]
+[4BA, 49B, 5F7, 67B]
+[53F, 6DC, 6C1, 76D]
+[4E4, 78D, 594, 5BF]
+After InverseSubBytes (Round 1):
+[28, BA, A5, 72]
+[C0, E8, 26, 03]
+[25, 93, DD, B3]
+[AE, B4, E7, F4]
+After AddRoundKey (Round 1):
+[A7, 54, 2A, 9C]
+[4E, 07, A8, EC]
+[AB, 7C, 53, 5C]
+[20, 5B, 69, 1B]
+After InverseMixColumns (Round 1):
+[201, 3AB, 5C5, 2C5]
+[363, 263, 763, 3F2]
+[2C9, 36B, 4D7, 26B]
+[3C9, 2D7, 6C9, 36B]
+After InverseShiftRows (Final Round):
+[201, 3AB, 5C5, 2C5]
+[3F2, 363, 263, 763]
+[4D7, 26B, 2C9, 36B]
+[2D7, 6C9, 36B, 3C9]
+After InverseSubBytes (Final Round):
+[09, 0E, 07, 07]
+[04, 00, 00, 00]
+[0D, 05, 12, 05]
+[0D, 12, 05, 12]
+After Final AddRoundKey:
+[68, 6F, 66, 66]
+[65, 61, 61, 61]
+[6C, 64, 73, 64]
+[6C, 73, 64, 73]
+Decrypted Block: 68 65 6C 6C 6F 61 64 73 66 61 73 64 66 61 64 73
+
+Processing Block 2 of 2
+Block Content: 45 6E 2F A1 D9 3F 8A 6D BE 18 DD E8 48 3F 2B B7
+Initial State:
+[45, D9, BE, 48]
+[6E, 3F, 18, 3F]
+[2F, 8A, DD, 2B]
+[A1, 6D, E8, B7]
+After Initial AddRoundKey:
+[9B, 9B, 2D, 59]
+[FB, 8A, 8A, DB]
+[6F, 9C, 16, 58]
+[CA, AF, 29, DE]
+After InverseShiftRows (Round 9):
+[9B, 9B, 2D, 59]
+[DB, FB, 8A, 8A]
+[16, 58, 6F, 9C]
+[AF, 29, DE, CA]
+After InverseSubBytes (Round 9):
+[E8, E8, FA, 15]
+[9F, 63, CF, CF]
+[FF, 5E, 06, 1C]
+[1B, 4C, 9C, 10]
+After AddRoundKey (Round 9):
+[38, 74, 2B, 97]
+[66, 43, E8, B9]
+[7D, 08, DB, A4]
+[63, E5, 9F, B8]
+After InverseMixColumns (Round 9):
+[3FD, 7A1, 688, 1BE]
+[232, 42B, 59A, 13E]
+[338, 672, 76D, 1E9]
+[2B7, 522, 4F8, 15B]
+After InverseShiftRows (Round 8):
+[3FD, 7A1, 688, 1BE]
+[13E, 232, 42B, 59A]
+[76D, 1E9, 338, 672]
+[522, 4F8, 15B, 2B7]
+After InverseSubBytes (Round 8):
+[21, F1, 97, 5A]
+[D1, A1, 0B, 37]
+[B3, EB, 76, 1E]
+[94, E1, 57, 20]
+After AddRoundKey (Round 8):
+[3B, BD, DA, 09]
+[65, 78, 0C, 66]
+[53, 3F, FD, 7B]
+[01, 30, FD, 8B]
+After InverseMixColumns (Round 8):
+[150, 5D2, 7CD, 50F]
+[1EE, 70D, 420, 7CE]
+[120, 4DF, 65D, 458]
+[192, 6CA, 566, 606]
+After InverseShiftRows (Round 7):
+[150, 5D2, 7CD, 50F]
+[7CE, 1EE, 70D, 420]
+[65D, 458, 120, 4DF]
+[6CA, 566, 606, 192]
+After InverseSubBytes (Round 7):
+[6C, 7F, 80, FB]
+[EC, 99, F3, 54]
+[8D, 5E, 54, EF]
+[10, D3, A5, 74]
+After AddRoundKey (Round 7):
+[47, 29, 81, E5]
+[70, F4, 2D, 02]
+[11, 6A, 0B, 01]
+[F7, 97, DE, 75]
+After InverseMixColumns (Round 7):
+[769, 1A4, 40, 6EA]
+[49B, 17F, 1C, 5A4]
+[686, 1A7, 38, 733]
+[5A5, 15C, 1D, 4EE]
+After InverseShiftRows (Round 6):
+[769, 1A4, 40, 6EA]
+[5A4, 49B, 17F, 1C]
+[38, 733, 686, 1A7]
+[15C, 1D, 4EE, 5A5]
+After InverseSubBytes (Round 6):
+[E4, 1D, 72, BB]
+[1D, E8, 6B, C4]
+[76, 66, DC, 89]
+[A7, DE, 99, 29]
+After AddRoundKey (Round 6):
+[4B, 60, 25, A4]
+[49, 19, D8, 4C]
+[30, CE, B7, 38]
+[80, 7D, A6, 53]
+After InverseMixColumns (Round 6):
+[4ED, 4DC, 477, 7DE]
+[6E7, 6E7, 628, 42F]
+[5E9, 5FD, 526, 65F]
+[751, 70C, 795, 52D]
+After InverseShiftRows (Round 5):
+[4ED, 4DC, 477, 7DE]
+[42F, 6E7, 6E7, 628]
+[526, 65F, 5E9, 5FD]
+[70C, 795, 52D, 751]
+After InverseSubBytes (Round 5):
+[53, 93, 02, 9C]
+[4E, B0, B0, EE]
+[23, 84, EB, 21]
+[81, AD, FA, 70]
+After AddRoundKey (Round 5):
+[3E, 41, 28, D4]
+[4D, 15, F2, D5]
+[0B, 6A, 28, FB]
+[F4, 29, 66, 35]
+After InverseMixColumns (Round 5):
+[48C, EA, 5DF, 687]
+[693, B4, 763, 5C9]
+[5BA, EF, 4EC, 72D]
+[729, A6, 6C4, 4AC]
+After InverseShiftRows (Round 4):
+[48C, EA, 5DF, 687]
+[5C9, 693, B4, 763]
+[4EC, 72D, 5BA, EF]
+[A6, 6C4, 4AC, 729]
+After InverseSubBytes (Round 4):
+[F0, BB, EF, EA]
+[12, 22, C6, 00]
+[83, FA, C0, 61]
+[C5, 88, AA, 4C]
+After AddRoundKey (Round 4):
+[3B, 04, 17, 88]
+[C5, 84, 21, 79]
+[9E, 3C, ED, 78]
+[1A, 79, B2, 95]
+After InverseMixColumns (Round 4):
+[F9, 748, B2, 260]
+[A5, 481, D4, 31A]
+[A8, 6E1, 9A, 2A8]
+[8E, 5ED, 95, 3CE]
+After InverseShiftRows (Round 3):
+[F9, 748, B2, 260]
+[31A, A5, 481, D4]
+[9A, 2A8, A8, 6E1]
+[5ED, 95, 3CE, 8E]
+After InverseSubBytes (Round 3):
+[69, D4, 3E, 90]
+[43, 29, 91, 19]
+[37, 6F, 6F, E0]
+[53, AD, EC, E6]
+After AddRoundKey (Round 3):
+[A1, A0, 79, 0A]
+[8C, 58, D0, 87]
+[52, B4, 84, D4]
+[34, 83, 05, 27]
+After InverseMixColumns (Round 3):
+[13F, 7F6, 39A, 1FD]
+[1D8, 437, 272, 134]
+[15A, 667, 337, 1DF]
+[1F6, 569, 2F7, 168]
+After InverseShiftRows (Round 2):
+[13F, 7F6, 39A, 1FD]
+[134, 1D8, 437, 272]
+[337, 1DF, 15A, 667]
+[569, 2F7, 168, 1F6]
+After InverseSubBytes (Round 2):
+[25, D6, 37, 21]
+[28, 2D, B2, 1E]
+[B2, EF, 46, 0A]
+[E4, 26, F7, D6]
+After AddRoundKey (Round 2):
+[77, 6A, 04, FC]
+[79, 93, 82, C1]
+[E3, 51, 76, D5]
+[42, 6F, 30, FE]
+After InverseMixColumns (Round 2):
+[7AD, 7CA, 65A, 84]
+[41A, 474, 515, B3]
+[67C, 664, 7B3, 81]
+[564, 51D, 43C, A0]
+After InverseShiftRows (Round 1):
+[7AD, 7CA, 65A, 84]
+[B3, 41A, 474, 515]
+[7B3, 81, 67C, 664]
+[51D, 43C, A0, 564]
+After InverseSubBytes (Round 1):
+[18, 10, 46, 4F]
+[4B, 43, CA, 2F]
+[4B, 91, 01, 8C]
+[DE, 6D, 47, 8C]
+After AddRoundKey (Round 1):
+[97, FE, C9, A1]
+[C5, AC, 44, C0]
+[C5, 7E, 8F, 63]
+[50, 82, C9, 63]
+After InverseMixColumns (Round 1):
+[7C5, 7C5, 602, 02]
+[402, 402, 502, 63]
+[602, 602, 7C9, 02]
+[502, 56B, 402, 02]
+After InverseShiftRows (Final Round):
+[7C5, 7C5, 602, 02]
+[63, 402, 402, 502]
+[7C9, 02, 602, 602]
+[56B, 402, 02, 502]
+After InverseSubBytes (Final Round):
+[07, 07, 6A, 6A]
+[00, 6A, 6A, 6A]
+[12, 6A, 6A, 6A]
+[05, 6A, 6A, 6A]
+After Final AddRoundKey:
+[66, 66, 0B, 0B]
+[61, 0B, 0B, 0B]
+[73, 0B, 0B, 0B]
+[64, 0B, 0B, 0B]
+Decrypted Block: 66 61 73 64 66 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+
+Final Decrypted Result: helloadsfasdfadsfasdf
+=== Starting AES Encryption ===
+Original Plaintext: hello
+Key: aaaaaaaaaaaaaaaa
+Padded Plaintext: 68 65 6C 6C 6F 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+
+Round Key 1:
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+
+Round Key 2:
+[52, 51, 51, A6]
+[BC, BE, BE, 49]
+[33, 30, 30, C7]
+[DD, DF, DF, 28]
+
+Round Key 3:
+[C8, CF, 65, 67]
+[74, 71, DB, 2E]
+[47, 41, EB, E9]
+[9A, 9E, 34, C1]
+
+Round Key 4:
+[CB, D7, 1D, DF]
+[BF, A6, C6, F1]
+[F8, E7, 2D, 18]
+[62, 79, 19, D9]
+
+Round Key 5:
+[6D, 03, 28, 75]
+[D2, A5, EE, 84]
+[2A, 42, C3, 9C]
+[48, 3B, DA, 45]
+
+Round Key 6:
+[AF, 54, 46, 27]
+[7D, F1, A8, A3]
+[57, B3, 6B, 3F]
+[1F, 88, B1, 7A]
+
+Round Key 7:
+[2B, 9C, 9C, E7]
+[56, 6D, 34, 44]
+[01, DE, 5F, 7B]
+[1E, 56, EE, 01]
+
+Round Key 8:
+[1A, B4, E0, 95]
+[4C, D9, D4, D1]
+[4D, 07, 8B, AA]
+[53, 51, 65, AB]
+
+Round Key 9:
+[D0, F9, 82, 78]
+[9C, 20, 56, A9]
+[D1, 27, DD, 03]
+[82, 76, B8, A8]
+
+Round Key 10:
+[DE, 95, 40, 6B]
+[42, B5, 16, C2]
+[93, 92, CB, C1]
+[11, E4, 73, 69]
+
+Processing Block 1 of 1
+Block Content: 68 65 6C 6C 6F 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+Initial State:
+[68, 6F, 0B, 0B]
+[65, 0B, 0B, 0B]
+[6C, 0B, 0B, 0B]
+[6C, 0B, 0B, 0B]
+After Initial AddRoundKey:
+[09, 0E, 6A, 6A]
+[04, 6A, 6A, 6A]
+[0D, 6A, 6A, 6A]
+[0D, 6A, 6A, 6A]
+After SubBytes (Round 1):
+[01, AB, 02, 02]
+[F2, 02, 02, 02]
+[D7, 02, 02, 02]
+[D7, 02, 02, 02]
+After ShiftRows (Round 1):
+[01, AB, 02, 02]
+[02, 02, 02, F2]
+[02, 02, D7, 02]
+[02, D7, 02, 02]
+After MixColumns (Round 1):
+[04, 9E, D7, 09]
+[01, 7E, 66, F9]
+[01, CF, B3, F2]
+[07, 53, D7, F2]
+After AddRoundKey (Round 1):
+[8B, 70, 58, E7]
+[8F, 91, E8, 16]
+[8F, 20, 3D, 1D]
+[89, BC, 59, 1D]
+After SubBytes (Round 2):
+[3D, 51, 6A, 94]
+[73, 81, 9B, 47]
+[73, B7, 27, A4]
+[A7, 65, CB, A4]
+After ShiftRows (Round 2):
+[3D, 51, 6A, 94]
+[81, 9B, 47, 73]
+[27, A4, 73, B7]
+[A4, A7, 65, CB]
+After MixColumns (Round 2):
+[61, 17, 0B, DA]
+[E9, 2C, 14, 7B]
+[05, 6B, 64, D4]
+[B2, 99, 40, EE]
+After AddRoundKey (Round 2):
+[33, AB, 38, 07]
+[B8, 92, 24, A4]
+[54, D5, 54, 0B]
+[14, D0, 87, C6]
+After SubBytes (Round 3):
+[C3, 62, 07, C5]
+[6C, 4F, 36, 49]
+[20, 03, 20, 2B]
+[FA, 70, 17, B4]
+After ShiftRows (Round 3):
+[C3, 62, 07, C5]
+[4F, 36, 49, 6C]
+[20, 2B, 20, 03]
+[B4, FA, 70, 17]
+After MixColumns (Round 3):
+[D8, 4F, 85, 31]
+[89, 89, 85, 0F]
+[0B, 17, 9E, 96]
+[42, 54, 80, 15]
+After AddRoundKey (Round 3):
+[10, 3B, C2, AB]
+[46, F8, C4, 91]
+[6E, CC, 75, A2]
+[25, 7A, 69, D4]
+After SubBytes (Round 4):
+[CA, E2, 25, 62]
+[5A, 41, 1C, 81]
+[9F, 4B, 9D, 3A]
+[3F, DA, F9, 48]
+After ShiftRows (Round 4):
+[CA, E2, 25, 62]
+[41, 1C, 81, 5A]
+[9D, 3A, 9F, 4B]
+[48, 3F, DA, F9]
+After MixColumns (Round 4):
+[99, FE, 97, 98]
+[BC, AB, 5C, F2]
+[72, CB, F4, BE]
+[09, 65, DE, 5E]
+After AddRoundKey (Round 4):
+[52, 41, 6F, FA]
+[6B, 0D, BB, 8B]
+[6F, 0D, D9, A7]
+[D6, 94, C6, 87]
+After SubBytes (Round 5):
+[00, 83, A8, 2D]
+[7F, D7, EA, 3D]
+[A8, D7, 35, 5C]
+[F6, 22, B4, 17]
+After ShiftRows (Round 5):
+[00, 83, A8, 2D]
+[D7, EA, 3D, 7F]
+[35, 5C, A8, D7]
+[17, F6, 22, B4]
+After MixColumns (Round 5):
+[40, 92, 86, B8]
+[FD, 5E, 13, 05]
+[84, D0, B8, 20]
+[CC, DF, 32, AC]
+After AddRoundKey (Round 5):
+[2D, 40, AC, F0]
+[FE, FB, 51, 3E]
+[AC, 3E, 7B, FA]
+[B9, 5B, AE, E9]
+After SubBytes (Round 6):
+[D8, 09, 91, 8C]
+[BB, 0F, D1, B2]
+[91, B2, 21, 2D]
+[56, 39, E4, 1E]
+After ShiftRows (Round 6):
+[D8, 09, 91, 8C]
+[0F, D1, B2, BB]
+[21, 2D, 91, B2]
+[1E, 56, 39, E4]
+After MixColumns (Round 6):
+[85, 01, 5C, 83]
+[BB, 91, 7F, C8]
+[B7, 78, 51, 7F]
+[61, 4B, F9, 55]
+After AddRoundKey (Round 6):
+[2A, 7C, 0B, 9C]
+[EF, 60, CC, 40]
+[F1, D0, 3A, CE]
+[46, E8, C6, 2F]
+After SubBytes (Round 7):
+[E5, 10, 2B, DE]
+[DF, D0, 4B, 09]
+[A1, 70, 80, 8B]
+[5A, 9B, B4, 15]
+After ShiftRows (Round 7):
+[E5, 10, 2B, DE]
+[D0, 4B, 09, DF]
+[80, 8B, A1, 70]
+[15, 5A, 9B, B4]
+After MixColumns (Round 7):
+[2F, 2C, 77, 19]
+[D0, 5A, 5A, 5F]
+[11, B8, CD, 26]
+[4E, 44, F8, A5]
+After AddRoundKey (Round 7):
+[04, 7A, 76, 07]
+[4C, 37, 84, 09]
+[8D, 8C, 92, C8]
+[A9, 00, 83, A4]
+After SubBytes (Round 8):
+[F2, DA, 38, C5]
+[29, 9A, 5F, 01]
+[5D, 64, 4F, E8]
+[D3, 63, EC, 49]
+After ShiftRows (Round 8):
+[F2, DA, 38, C5]
+[9A, 5F, 01, 29]
+[4F, E8, 5D, 64]
+[49, D3, 63, EC]
+After MixColumns (Round 8):
+[4C, 75, 4D, 62]
+[45, 94, BE, D7]
+[2D, 20, 26, 0B]
+[4A, 7F, D2, DA]
+After AddRoundKey (Round 8):
+[56, 39, 00, 31]
+[F1, 4D, B9, 86]
+[CD, F4, AD, 6E]
+[DF, AE, 78, 71]
+After SubBytes (Round 9):
+[B1, 12, 63, C7]
+[A1, E3, 56, 44]
+[BD, BF, 95, 9F]
+[9E, E4, BC, A3]
+After ShiftRows (Round 9):
+[B1, 12, 63, C7]
+[E3, 56, 44, A1]
+[95, 9F, BD, BF]
+[A3, 9E, E4, BC]
+After MixColumns (Round 9):
+[71, DF, 53, 6E]
+[6B, 9A, D3, F8]
+[9D, D8, 71, DC]
+[E3, D8, 8F, 2F]
+After AddRoundKey (Round 9):
+[A1, 43, 82, EC]
+[92, BA, F4, 8E]
+[1F, 8E, AC, 64]
+[9B, 71, 8C, 87]
+After SubBytes (Final Round):
+[32, 1A, 13, CE]
+[4F, F4, BF, 19]
+[C0, 19, 91, 43]
+[14, A3, 64, 17]
+After ShiftRows (Final Round):
+[32, 1A, 13, CE]
+[F4, BF, 19, 4F]
+[91, 43, C0, 19]
+[17, 14, A3, 64]
+After Final AddRoundKey:
+[EC, 58, 80, DF]
+[61, 0A, 8B, AB]
+[D1, 55, 0B, 6A]
+[7C, D6, 62, 0D]
+Encrypted Block: EC 61 D1 7C 58 0A 55 D6 80 8B 0B 62 DF AB 6A 0D
+
+Final Encrypted Result: EC 61 D1 7C 58 0A 55 D6 80 8B 0B 62 DF AB 6A 0D
+=== Starting AES Decryption ===
+Encrypted Input: EC61D17C580A55D6808B0B62DFAB6A0D
+Key: aaaaaaaaaaaaaaaa
+
+Round Key 1:
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+
+Round Key 2:
+[52, 51, 51, A6]
+[BC, BE, BE, 49]
+[33, 30, 30, C7]
+[DD, DF, DF, 28]
+
+Round Key 3:
+[C8, CF, 65, 67]
+[74, 71, DB, 2E]
+[47, 41, EB, E9]
+[9A, 9E, 34, C1]
+
+Round Key 4:
+[CB, D7, 1D, DF]
+[BF, A6, C6, F1]
+[F8, E7, 2D, 18]
+[62, 79, 19, D9]
+
+Round Key 5:
+[6D, 03, 28, 75]
+[D2, A5, EE, 84]
+[2A, 42, C3, 9C]
+[48, 3B, DA, 45]
+
+Round Key 6:
+[AF, 54, 46, 27]
+[7D, F1, A8, A3]
+[57, B3, 6B, 3F]
+[1F, 88, B1, 7A]
+
+Round Key 7:
+[2B, 9C, 9C, E7]
+[56, 6D, 34, 44]
+[01, DE, 5F, 7B]
+[1E, 56, EE, 01]
+
+Round Key 8:
+[1A, B4, E0, 95]
+[4C, D9, D4, D1]
+[4D, 07, 8B, AA]
+[53, 51, 65, AB]
+
+Round Key 9:
+[D0, F9, 82, 78]
+[9C, 20, 56, A9]
+[D1, 27, DD, 03]
+[82, 76, B8, A8]
+
+Round Key 10:
+[DE, 95, 40, 6B]
+[42, B5, 16, C2]
+[93, 92, CB, C1]
+[11, E4, 73, 69]
+
+Processing Block 1 of 1
+Block Content: EC 61 D1 7C 58 0A 55 D6 80 8B 0B 62 DF AB 6A 0D
+Initial State:
+[EC, 58, 80, DF]
+[61, 0A, 8B, AB]
+[D1, 55, 0B, 6A]
+[7C, D6, 62, 0D]
+After Initial AddRoundKey:
+[32, 1A, 13, CE]
+[F4, BF, 19, 4F]
+[91, 43, C0, 19]
+[17, 14, A3, 64]
+After InverseShiftRows (Round 9):
+[32, 1A, 13, CE]
+[4F, F4, BF, 19]
+[C0, 19, 91, 43]
+[14, A3, 64, 17]
+After InverseSubBytes (Round 9):
+[A1, 43, 82, EC]
+[92, BA, F4, 8E]
+[1F, 8E, AC, 64]
+[9B, 71, 8C, 87]
+After AddRoundKey (Round 9):
+[71, DF, 53, 6E]
+[6B, 9A, D3, F8]
+[9D, D8, 71, DC]
+[E3, D8, 8F, 2F]
+After InverseMixColumns (Round 9):
+[B1, 12, 63, C7]
+[E3, 56, 44, A1]
+[95, 9F, BD, BF]
+[A3, 9E, E4, BC]
+After InverseShiftRows (Round 8):
+[B1, 12, 63, C7]
+[A1, E3, 56, 44]
+[BD, BF, 95, 9F]
+[9E, E4, BC, A3]
+After InverseSubBytes (Round 8):
+[56, 39, 00, 31]
+[F1, 4D, B9, 86]
+[CD, F4, AD, 6E]
+[DF, AE, 78, 71]
+After AddRoundKey (Round 8):
+[4C, 75, 4D, 62]
+[45, 94, BE, D7]
+[2D, 20, 26, 0B]
+[4A, 7F, D2, DA]
+After InverseMixColumns (Round 8):
+[F2, DA, 38, C5]
+[9A, 5F, 01, 29]
+[4F, E8, 5D, 64]
+[49, D3, 63, EC]
+After InverseShiftRows (Round 7):
+[F2, DA, 38, C5]
+[29, 9A, 5F, 01]
+[5D, 64, 4F, E8]
+[D3, 63, EC, 49]
+After InverseSubBytes (Round 7):
+[04, 7A, 76, 07]
+[4C, 37, 84, 09]
+[8D, 8C, 92, C8]
+[A9, 00, 83, A4]
+After AddRoundKey (Round 7):
+[2F, 2C, 77, 19]
+[D0, 5A, 5A, 5F]
+[11, B8, CD, 26]
+[4E, 44, F8, A5]
+After InverseMixColumns (Round 7):
+[E5, 10, 2B, DE]
+[D0, 4B, 09, DF]
+[80, 8B, A1, 70]
+[15, 5A, 9B, B4]
+After InverseShiftRows (Round 6):
+[E5, 10, 2B, DE]
+[DF, D0, 4B, 09]
+[A1, 70, 80, 8B]
+[5A, 9B, B4, 15]
+After InverseSubBytes (Round 6):
+[2A, 7C, 0B, 9C]
+[EF, 60, CC, 40]
+[F1, D0, 3A, CE]
+[46, E8, C6, 2F]
+After AddRoundKey (Round 6):
+[85, 01, 5C, 83]
+[BB, 91, 7F, C8]
+[B7, 78, 51, 7F]
+[61, 4B, F9, 55]
+After InverseMixColumns (Round 6):
+[D8, 09, 91, 8C]
+[0F, D1, B2, BB]
+[21, 2D, 91, B2]
+[1E, 56, 39, E4]
+After InverseShiftRows (Round 5):
+[D8, 09, 91, 8C]
+[BB, 0F, D1, B2]
+[91, B2, 21, 2D]
+[56, 39, E4, 1E]
+After InverseSubBytes (Round 5):
+[2D, 40, AC, F0]
+[FE, FB, 51, 3E]
+[AC, 3E, 7B, FA]
+[B9, 5B, AE, E9]
+After AddRoundKey (Round 5):
+[40, 92, 86, B8]
+[FD, 5E, 13, 05]
+[84, D0, B8, 20]
+[CC, DF, 32, AC]
+After InverseMixColumns (Round 5):
+[00, 83, A8, 2D]
+[D7, EA, 3D, 7F]
+[35, 5C, A8, D7]
+[17, F6, 22, B4]
+After InverseShiftRows (Round 4):
+[00, 83, A8, 2D]
+[7F, D7, EA, 3D]
+[A8, D7, 35, 5C]
+[F6, 22, B4, 17]
+After InverseSubBytes (Round 4):
+[52, 41, 6F, FA]
+[6B, 0D, BB, 8B]
+[6F, 0D, D9, A7]
+[D6, 94, C6, 87]
+After AddRoundKey (Round 4):
+[99, FE, 97, 98]
+[BC, AB, 5C, F2]
+[72, CB, F4, BE]
+[09, 65, DE, 5E]
+After InverseMixColumns (Round 4):
+[CA, E2, 25, 62]
+[41, 1C, 81, 5A]
+[9D, 3A, 9F, 4B]
+[48, 3F, DA, F9]
+After InverseShiftRows (Round 3):
+[CA, E2, 25, 62]
+[5A, 41, 1C, 81]
+[9F, 4B, 9D, 3A]
+[3F, DA, F9, 48]
+After InverseSubBytes (Round 3):
+[10, 3B, C2, AB]
+[46, F8, C4, 91]
+[6E, CC, 75, A2]
+[25, 7A, 69, D4]
+After AddRoundKey (Round 3):
+[D8, 4F, 85, 31]
+[89, 89, 85, 0F]
+[0B, 17, 9E, 96]
+[42, 54, 80, 15]
+After InverseMixColumns (Round 3):
+[C3, 62, 07, C5]
+[4F, 36, 49, 6C]
+[20, 2B, 20, 03]
+[B4, FA, 70, 17]
+After InverseShiftRows (Round 2):
+[C3, 62, 07, C5]
+[6C, 4F, 36, 49]
+[20, 03, 20, 2B]
+[FA, 70, 17, B4]
+After InverseSubBytes (Round 2):
+[33, AB, 38, 07]
+[B8, 92, 24, A4]
+[54, D5, 54, 0B]
+[14, D0, 87, C6]
+After AddRoundKey (Round 2):
+[61, 17, 0B, DA]
+[E9, 2C, 14, 7B]
+[05, 6B, 64, D4]
+[B2, 99, 40, EE]
+After InverseMixColumns (Round 2):
+[3D, 51, 6A, 94]
+[81, 9B, 47, 73]
+[27, A4, 73, B7]
+[A4, A7, 65, CB]
+After InverseShiftRows (Round 1):
+[3D, 51, 6A, 94]
+[73, 81, 9B, 47]
+[73, B7, 27, A4]
+[A7, 65, CB, A4]
+After InverseSubBytes (Round 1):
+[8B, 70, 58, E7]
+[8F, 91, E8, 16]
+[8F, 20, 3D, 1D]
+[89, BC, 59, 1D]
+After AddRoundKey (Round 1):
+[04, 9E, D7, 09]
+[01, 7E, 66, F9]
+[01, CF, B3, F2]
+[07, 53, D7, F2]
+After InverseMixColumns (Round 1):
+[01, AB, 02, 02]
+[02, 02, 02, F2]
+[02, 02, D7, 02]
+[02, D7, 02, 02]
+After InverseShiftRows (Final Round):
+[01, AB, 02, 02]
+[F2, 02, 02, 02]
+[D7, 02, 02, 02]
+[D7, 02, 02, 02]
+After InverseSubBytes (Final Round):
+[09, 0E, 6A, 6A]
+[04, 6A, 6A, 6A]
+[0D, 6A, 6A, 6A]
+[0D, 6A, 6A, 6A]
+After Final AddRoundKey:
+[68, 6F, 0B, 0B]
+[65, 0B, 0B, 0B]
+[6C, 0B, 0B, 0B]
+[6C, 0B, 0B, 0B]
+Decrypted Block: 68 65 6C 6C 6F 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+
+Final Decrypted Result: hello
+=== Starting AES Encryption ===
+Original Plaintext: hello
+Key: aaaaaaaaaaaaaaaa
+Padded Plaintext: 68 65 6C 6C 6F 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+
+Round Key 1:
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+
+Round Key 2:
+[52, 51, 51, A6]
+[BC, BE, BE, 49]
+[33, 30, 30, C7]
+[DD, DF, DF, 28]
+
+Round Key 3:
+[C8, CF, 65, 67]
+[74, 71, DB, 2E]
+[47, 41, EB, E9]
+[9A, 9E, 34, C1]
+
+Round Key 4:
+[CB, D7, 1D, DF]
+[BF, A6, C6, F1]
+[F8, E7, 2D, 18]
+[62, 79, 19, D9]
+
+Round Key 5:
+[6D, 03, 28, 75]
+[D2, A5, EE, 84]
+[2A, 42, C3, 9C]
+[48, 3B, DA, 45]
+
+Round Key 6:
+[AF, 54, 46, 27]
+[7D, F1, A8, A3]
+[57, B3, 6B, 3F]
+[1F, 88, B1, 7A]
+
+Round Key 7:
+[2B, 9C, 9C, E7]
+[56, 6D, 34, 44]
+[01, DE, 5F, 7B]
+[1E, 56, EE, 01]
+
+Round Key 8:
+[1A, B4, E0, 95]
+[4C, D9, D4, D1]
+[4D, 07, 8B, AA]
+[53, 51, 65, AB]
+
+Round Key 9:
+[D0, F9, 82, 78]
+[9C, 20, 56, A9]
+[D1, 27, DD, 03]
+[82, 76, B8, A8]
+
+Round Key 10:
+[DE, 95, 40, 6B]
+[42, B5, 16, C2]
+[93, 92, CB, C1]
+[11, E4, 73, 69]
+
+Processing Block 1 of 1
+Block Content: 68 65 6C 6C 6F 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+Initial State:
+[68, 6F, 0B, 0B]
+[65, 0B, 0B, 0B]
+[6C, 0B, 0B, 0B]
+[6C, 0B, 0B, 0B]
+After Initial AddRoundKey:
+[09, 0E, 6A, 6A]
+[04, 6A, 6A, 6A]
+[0D, 6A, 6A, 6A]
+[0D, 6A, 6A, 6A]
+After SubBytes (Round 1):
+[01, AB, 02, 02]
+[F2, 02, 02, 02]
+[D7, 02, 02, 02]
+[D7, 02, 02, 02]
+After ShiftRows (Round 1):
+[01, AB, 02, 02]
+[02, 02, 02, F2]
+[02, 02, D7, 02]
+[02, D7, 02, 02]
+After MixColumns (Round 1):
+[04, 9E, D7, 09]
+[01, 7E, 66, F9]
+[01, CF, B3, F2]
+[07, 53, D7, F2]
+After AddRoundKey (Round 1):
+[8B, 70, 58, E7]
+[8F, 91, E8, 16]
+[8F, 20, 3D, 1D]
+[89, BC, 59, 1D]
+After SubBytes (Round 2):
+[3D, 51, 6A, 94]
+[73, 81, 9B, 47]
+[73, B7, 27, A4]
+[A7, 65, CB, A4]
+After ShiftRows (Round 2):
+[3D, 51, 6A, 94]
+[81, 9B, 47, 73]
+[27, A4, 73, B7]
+[A4, A7, 65, CB]
+After MixColumns (Round 2):
+[61, 17, 0B, DA]
+[E9, 2C, 14, 7B]
+[05, 6B, 64, D4]
+[B2, 99, 40, EE]
+After AddRoundKey (Round 2):
+[33, AB, 38, 07]
+[B8, 92, 24, A4]
+[54, D5, 54, 0B]
+[14, D0, 87, C6]
+After SubBytes (Round 3):
+[C3, 62, 07, C5]
+[6C, 4F, 36, 49]
+[20, 03, 20, 2B]
+[FA, 70, 17, B4]
+After ShiftRows (Round 3):
+[C3, 62, 07, C5]
+[4F, 36, 49, 6C]
+[20, 2B, 20, 03]
+[B4, FA, 70, 17]
+After MixColumns (Round 3):
+[D8, 4F, 85, 31]
+[89, 89, 85, 0F]
+[0B, 17, 9E, 96]
+[42, 54, 80, 15]
+After AddRoundKey (Round 3):
+[10, 3B, C2, AB]
+[46, F8, C4, 91]
+[6E, CC, 75, A2]
+[25, 7A, 69, D4]
+After SubBytes (Round 4):
+[CA, E2, 25, 62]
+[5A, 41, 1C, 81]
+[9F, 4B, 9D, 3A]
+[3F, DA, F9, 48]
+After ShiftRows (Round 4):
+[CA, E2, 25, 62]
+[41, 1C, 81, 5A]
+[9D, 3A, 9F, 4B]
+[48, 3F, DA, F9]
+After MixColumns (Round 4):
+[99, FE, 97, 98]
+[BC, AB, 5C, F2]
+[72, CB, F4, BE]
+[09, 65, DE, 5E]
+After AddRoundKey (Round 4):
+[52, 41, 6F, FA]
+[6B, 0D, BB, 8B]
+[6F, 0D, D9, A7]
+[D6, 94, C6, 87]
+After SubBytes (Round 5):
+[00, 83, A8, 2D]
+[7F, D7, EA, 3D]
+[A8, D7, 35, 5C]
+[F6, 22, B4, 17]
+After ShiftRows (Round 5):
+[00, 83, A8, 2D]
+[D7, EA, 3D, 7F]
+[35, 5C, A8, D7]
+[17, F6, 22, B4]
+After MixColumns (Round 5):
+[40, 92, 86, B8]
+[FD, 5E, 13, 05]
+[84, D0, B8, 20]
+[CC, DF, 32, AC]
+After AddRoundKey (Round 5):
+[2D, 40, AC, F0]
+[FE, FB, 51, 3E]
+[AC, 3E, 7B, FA]
+[B9, 5B, AE, E9]
+After SubBytes (Round 6):
+[D8, 09, 91, 8C]
+[BB, 0F, D1, B2]
+[91, B2, 21, 2D]
+[56, 39, E4, 1E]
+After ShiftRows (Round 6):
+[D8, 09, 91, 8C]
+[0F, D1, B2, BB]
+[21, 2D, 91, B2]
+[1E, 56, 39, E4]
+After MixColumns (Round 6):
+[85, 01, 5C, 83]
+[BB, 91, 7F, C8]
+[B7, 78, 51, 7F]
+[61, 4B, F9, 55]
+After AddRoundKey (Round 6):
+[2A, 7C, 0B, 9C]
+[EF, 60, CC, 40]
+[F1, D0, 3A, CE]
+[46, E8, C6, 2F]
+After SubBytes (Round 7):
+[E5, 10, 2B, DE]
+[DF, D0, 4B, 09]
+[A1, 70, 80, 8B]
+[5A, 9B, B4, 15]
+After ShiftRows (Round 7):
+[E5, 10, 2B, DE]
+[D0, 4B, 09, DF]
+[80, 8B, A1, 70]
+[15, 5A, 9B, B4]
+After MixColumns (Round 7):
+[2F, 2C, 77, 19]
+[D0, 5A, 5A, 5F]
+[11, B8, CD, 26]
+[4E, 44, F8, A5]
+After AddRoundKey (Round 7):
+[04, 7A, 76, 07]
+[4C, 37, 84, 09]
+[8D, 8C, 92, C8]
+[A9, 00, 83, A4]
+After SubBytes (Round 8):
+[F2, DA, 38, C5]
+[29, 9A, 5F, 01]
+[5D, 64, 4F, E8]
+[D3, 63, EC, 49]
+After ShiftRows (Round 8):
+[F2, DA, 38, C5]
+[9A, 5F, 01, 29]
+[4F, E8, 5D, 64]
+[49, D3, 63, EC]
+After MixColumns (Round 8):
+[4C, 75, 4D, 62]
+[45, 94, BE, D7]
+[2D, 20, 26, 0B]
+[4A, 7F, D2, DA]
+After AddRoundKey (Round 8):
+[56, 39, 00, 31]
+[F1, 4D, B9, 86]
+[CD, F4, AD, 6E]
+[DF, AE, 78, 71]
+After SubBytes (Round 9):
+[B1, 12, 63, C7]
+[A1, E3, 56, 44]
+[BD, BF, 95, 9F]
+[9E, E4, BC, A3]
+After ShiftRows (Round 9):
+[B1, 12, 63, C7]
+[E3, 56, 44, A1]
+[95, 9F, BD, BF]
+[A3, 9E, E4, BC]
+After MixColumns (Round 9):
+[71, DF, 53, 6E]
+[6B, 9A, D3, F8]
+[9D, D8, 71, DC]
+[E3, D8, 8F, 2F]
+After AddRoundKey (Round 9):
+[A1, 43, 82, EC]
+[92, BA, F4, 8E]
+[1F, 8E, AC, 64]
+[9B, 71, 8C, 87]
+After SubBytes (Final Round):
+[32, 1A, 13, CE]
+[4F, F4, BF, 19]
+[C0, 19, 91, 43]
+[14, A3, 64, 17]
+After ShiftRows (Final Round):
+[32, 1A, 13, CE]
+[F4, BF, 19, 4F]
+[91, 43, C0, 19]
+[17, 14, A3, 64]
+After Final AddRoundKey:
+[EC, 58, 80, DF]
+[61, 0A, 8B, AB]
+[D1, 55, 0B, 6A]
+[7C, D6, 62, 0D]
+Encrypted Block: EC 61 D1 7C 58 0A 55 D6 80 8B 0B 62 DF AB 6A 0D
+
+Final Encrypted Result: EC 61 D1 7C 58 0A 55 D6 80 8B 0B 62 DF AB 6A 0D
+=== Starting AES Decryption ===
+Encrypted Input: EC61D17C580A55D6808B0B62DFAB6A0D
+Key: aaaaaaaaaaaaaaaa
+
+Round Key 1:
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+[8F, 8E, 8E, 8E]
+[EE, EF, EF, EF]
+
+Round Key 2:
+[52, 51, 51, A6]
+[BC, BE, BE, 49]
+[33, 30, 30, C7]
+[DD, DF, DF, 28]
+
+Round Key 3:
+[C8, CF, 65, 67]
+[74, 71, DB, 2E]
+[47, 41, EB, E9]
+[9A, 9E, 34, C1]
+
+Round Key 4:
+[CB, D7, 1D, DF]
+[BF, A6, C6, F1]
+[F8, E7, 2D, 18]
+[62, 79, 19, D9]
+
+Round Key 5:
+[6D, 03, 28, 75]
+[D2, A5, EE, 84]
+[2A, 42, C3, 9C]
+[48, 3B, DA, 45]
+
+Round Key 6:
+[AF, 54, 46, 27]
+[7D, F1, A8, A3]
+[57, B3, 6B, 3F]
+[1F, 88, B1, 7A]
+
+Round Key 7:
+[2B, 9C, 9C, E7]
+[56, 6D, 34, 44]
+[01, DE, 5F, 7B]
+[1E, 56, EE, 01]
+
+Round Key 8:
+[1A, B4, E0, 95]
+[4C, D9, D4, D1]
+[4D, 07, 8B, AA]
+[53, 51, 65, AB]
+
+Round Key 9:
+[D0, F9, 82, 78]
+[9C, 20, 56, A9]
+[D1, 27, DD, 03]
+[82, 76, B8, A8]
+
+Round Key 10:
+[DE, 95, 40, 6B]
+[42, B5, 16, C2]
+[93, 92, CB, C1]
+[11, E4, 73, 69]
+
+Processing Block 1 of 1
+Block Content: EC 61 D1 7C 58 0A 55 D6 80 8B 0B 62 DF AB 6A 0D
+Initial State:
+[EC, 58, 80, DF]
+[61, 0A, 8B, AB]
+[D1, 55, 0B, 6A]
+[7C, D6, 62, 0D]
+After Initial AddRoundKey:
+[32, 1A, 13, CE]
+[F4, BF, 19, 4F]
+[91, 43, C0, 19]
+[17, 14, A3, 64]
+After InverseShiftRows (Round 9):
+[32, 1A, 13, CE]
+[4F, F4, BF, 19]
+[C0, 19, 91, 43]
+[14, A3, 64, 17]
+After InverseSubBytes (Round 9):
+[A1, 43, 82, EC]
+[92, BA, F4, 8E]
+[1F, 8E, AC, 64]
+[9B, 71, 8C, 87]
+After AddRoundKey (Round 9):
+[71, DF, 53, 6E]
+[6B, 9A, D3, F8]
+[9D, D8, 71, DC]
+[E3, D8, 8F, 2F]
+After InverseMixColumns (Round 9):
+[B1, 12, 63, C7]
+[E3, 56, 44, A1]
+[95, 9F, BD, BF]
+[A3, 9E, E4, BC]
+After InverseShiftRows (Round 8):
+[B1, 12, 63, C7]
+[A1, E3, 56, 44]
+[BD, BF, 95, 9F]
+[9E, E4, BC, A3]
+After InverseSubBytes (Round 8):
+[56, 39, 00, 31]
+[F1, 4D, B9, 86]
+[CD, F4, AD, 6E]
+[DF, AE, 78, 71]
+After AddRoundKey (Round 8):
+[4C, 75, 4D, 62]
+[45, 94, BE, D7]
+[2D, 20, 26, 0B]
+[4A, 7F, D2, DA]
+After InverseMixColumns (Round 8):
+[F2, DA, 38, C5]
+[9A, 5F, 01, 29]
+[4F, E8, 5D, 64]
+[49, D3, 63, EC]
+After InverseShiftRows (Round 7):
+[F2, DA, 38, C5]
+[29, 9A, 5F, 01]
+[5D, 64, 4F, E8]
+[D3, 63, EC, 49]
+After InverseSubBytes (Round 7):
+[04, 7A, 76, 07]
+[4C, 37, 84, 09]
+[8D, 8C, 92, C8]
+[A9, 00, 83, A4]
+After AddRoundKey (Round 7):
+[2F, 2C, 77, 19]
+[D0, 5A, 5A, 5F]
+[11, B8, CD, 26]
+[4E, 44, F8, A5]
+After InverseMixColumns (Round 7):
+[E5, 10, 2B, DE]
+[D0, 4B, 09, DF]
+[80, 8B, A1, 70]
+[15, 5A, 9B, B4]
+After InverseShiftRows (Round 6):
+[E5, 10, 2B, DE]
+[DF, D0, 4B, 09]
+[A1, 70, 80, 8B]
+[5A, 9B, B4, 15]
+After InverseSubBytes (Round 6):
+[2A, 7C, 0B, 9C]
+[EF, 60, CC, 40]
+[F1, D0, 3A, CE]
+[46, E8, C6, 2F]
+After AddRoundKey (Round 6):
+[85, 01, 5C, 83]
+[BB, 91, 7F, C8]
+[B7, 78, 51, 7F]
+[61, 4B, F9, 55]
+After InverseMixColumns (Round 6):
+[D8, 09, 91, 8C]
+[0F, D1, B2, BB]
+[21, 2D, 91, B2]
+[1E, 56, 39, E4]
+After InverseShiftRows (Round 5):
+[D8, 09, 91, 8C]
+[BB, 0F, D1, B2]
+[91, B2, 21, 2D]
+[56, 39, E4, 1E]
+After InverseSubBytes (Round 5):
+[2D, 40, AC, F0]
+[FE, FB, 51, 3E]
+[AC, 3E, 7B, FA]
+[B9, 5B, AE, E9]
+After AddRoundKey (Round 5):
+[40, 92, 86, B8]
+[FD, 5E, 13, 05]
+[84, D0, B8, 20]
+[CC, DF, 32, AC]
+After InverseMixColumns (Round 5):
+[00, 83, A8, 2D]
+[D7, EA, 3D, 7F]
+[35, 5C, A8, D7]
+[17, F6, 22, B4]
+After InverseShiftRows (Round 4):
+[00, 83, A8, 2D]
+[7F, D7, EA, 3D]
+[A8, D7, 35, 5C]
+[F6, 22, B4, 17]
+After InverseSubBytes (Round 4):
+[52, 41, 6F, FA]
+[6B, 0D, BB, 8B]
+[6F, 0D, D9, A7]
+[D6, 94, C6, 87]
+After AddRoundKey (Round 4):
+[99, FE, 97, 98]
+[BC, AB, 5C, F2]
+[72, CB, F4, BE]
+[09, 65, DE, 5E]
+After InverseMixColumns (Round 4):
+[CA, E2, 25, 62]
+[41, 1C, 81, 5A]
+[9D, 3A, 9F, 4B]
+[48, 3F, DA, F9]
+After InverseShiftRows (Round 3):
+[CA, E2, 25, 62]
+[5A, 41, 1C, 81]
+[9F, 4B, 9D, 3A]
+[3F, DA, F9, 48]
+After InverseSubBytes (Round 3):
+[10, 3B, C2, AB]
+[46, F8, C4, 91]
+[6E, CC, 75, A2]
+[25, 7A, 69, D4]
+After AddRoundKey (Round 3):
+[D8, 4F, 85, 31]
+[89, 89, 85, 0F]
+[0B, 17, 9E, 96]
+[42, 54, 80, 15]
+After InverseMixColumns (Round 3):
+[C3, 62, 07, C5]
+[4F, 36, 49, 6C]
+[20, 2B, 20, 03]
+[B4, FA, 70, 17]
+After InverseShiftRows (Round 2):
+[C3, 62, 07, C5]
+[6C, 4F, 36, 49]
+[20, 03, 20, 2B]
+[FA, 70, 17, B4]
+After InverseSubBytes (Round 2):
+[33, AB, 38, 07]
+[B8, 92, 24, A4]
+[54, D5, 54, 0B]
+[14, D0, 87, C6]
+After AddRoundKey (Round 2):
+[61, 17, 0B, DA]
+[E9, 2C, 14, 7B]
+[05, 6B, 64, D4]
+[B2, 99, 40, EE]
+After InverseMixColumns (Round 2):
+[3D, 51, 6A, 94]
+[81, 9B, 47, 73]
+[27, A4, 73, B7]
+[A4, A7, 65, CB]
+After InverseShiftRows (Round 1):
+[3D, 51, 6A, 94]
+[73, 81, 9B, 47]
+[73, B7, 27, A4]
+[A7, 65, CB, A4]
+After InverseSubBytes (Round 1):
+[8B, 70, 58, E7]
+[8F, 91, E8, 16]
+[8F, 20, 3D, 1D]
+[89, BC, 59, 1D]
+After AddRoundKey (Round 1):
+[04, 9E, D7, 09]
+[01, 7E, 66, F9]
+[01, CF, B3, F2]
+[07, 53, D7, F2]
+After InverseMixColumns (Round 1):
+[01, AB, 02, 02]
+[02, 02, 02, F2]
+[02, 02, D7, 02]
+[02, D7, 02, 02]
+After InverseShiftRows (Final Round):
+[01, AB, 02, 02]
+[F2, 02, 02, 02]
+[D7, 02, 02, 02]
+[D7, 02, 02, 02]
+After InverseSubBytes (Final Round):
+[09, 0E, 6A, 6A]
+[04, 6A, 6A, 6A]
+[0D, 6A, 6A, 6A]
+[0D, 6A, 6A, 6A]
+After Final AddRoundKey:
+[68, 6F, 0B, 0B]
+[65, 0B, 0B, 0B]
+[6C, 0B, 0B, 0B]
+[6C, 0B, 0B, 0B]
+Decrypted Block: 68 65 6C 6C 6F 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B 0B
+
+Final Decrypted Result: hello
+=== Starting AES Encryption ===
+Original Plaintext: hagar 0000 -   lkkkkkkkkkkkkkkkkkk
+Key: hagarhagarhagart
+Padded Plaintext: 68 61 67 61 72 20 30 30 30 30 20 2D 20 20 20 6C 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E
+
+Round Key 1:
+[86, 21, F5, E4]
+[F4, 49, 94, 83]
+[95, 3B, FC, E2]
+[F2, 5A, 8E, 96]
+
+Round Key 2:
+[3A, 38, 65, 6D]
+[CE, 71, F1, EE]
+[5B, 4A, 0D, 0C]
+[A9, 10, 83, 9A]
+
+Round Key 3:
+[F4, D4, DD, BE]
+[3A, A5, 2C, 50]
+[61, EF, 21, 5C]
+[C8, FF, A2, C6]
+
+Round Key 4:
+[EA, EE, 69, 56]
+[D0, 4B, 45, 06]
+[B1, A4, 64, 5A]
+[79, 5B, C6, 9C]
+
+Round Key 5:
+[C3, 5A, B7, E0]
+[13, 11, F2, E6]
+[A2, B5, 96, BC]
+[DB, EE, 50, 20]
+
+Round Key 6:
+[CB, 09, 00, 59]
+[D8, 18, F2, BF]
+[7A, AD, 64, 03]
+[A1, 43, 34, 23]
+
+Round Key 7:
+[91, 11, 26, 6B]
+[49, 09, D4, D4]
+[33, A4, B0, D7]
+[92, E7, 84, F4]
+
+Round Key 8:
+[85, 4E, 99, 24]
+[CC, 47, 4D, F0]
+[FF, E3, FD, 27]
+[6D, 04, 79, D3]
+
+Round Key 9:
+[6C, F8, FF, 18]
+[A0, BF, B2, E8]
+[5F, 5C, 4F, CF]
+[32, 58, 36, 1C]
+
+Round Key 10:
+[30, FD, 63, 3B]
+[90, 42, D1, D3]
+[CF, 1E, 9E, 1C]
+[FD, 46, A8, 00]
+
+Processing Block 1 of 3
+Block Content: 68 61 67 61 72 20 30 30 30 30 20 2D 20 20 20 6C
+Initial State:
+[68, 72, 30, 20]
+[61, 20, 30, 20]
+[67, 30, 20, 20]
+[61, 30, 2D, 6C]
+After Initial AddRoundKey:
+[00, 00, 51, 47]
+[00, 48, 42, 41]
+[00, 51, 48, 52]
+[00, 57, 4C, 18]
+After SubBytes (Round 1):
+[63, 63, D1, A0]
+[63, 52, 2C, 83]
+[63, D1, 52, 00]
+[63, 5B, 29, AD]
+After ShiftRows (Round 1):
+[63, 63, D1, A0]
+[52, 2C, 83, 63]
+[52, 00, 63, D1]
+[AD, 63, 5B, 29]
+After MixColumns (Round 1):
+[CF, D1, 1F, 06]
+[9C, 58, 32, 27]
+[79, EA, 79, 01]
+[E4, 4F, 3E, 1B]
+After AddRoundKey (Round 1):
+[49, 25, 8A, F4]
+[BD, 11, 09, 7D]
+[8C, 7E, 85, 8F]
+[00, CC, DC, 8D]
+After SubBytes (Round 2):
+[3B, 3F, 7E, BF]
+[7A, 82, 01, FF]
+[64, F3, 97, 73]
+[63, 4B, 86, 5D]
+After ShiftRows (Round 2):
+[3B, 3F, 7E, BF]
+[82, 01, FF, 7A]
+[97, 73, 64, F3]
+[5D, 63, 4B, 86]
+After MixColumns (Round 2):
+[21, 6D, C9, 9E]
+[DB, CB, 7C, C3]
+[6B, 7D, 94, A9]
+[E2, F5, 8F, 44]
+After AddRoundKey (Round 2):
+[1B, A3, 92, 37]
+[E3, BA, 36, D3]
+[0E, 8C, 99, 2A]
+[8F, 1B, 83, DE]
+After SubBytes (Round 3):
+[AF, 0A, 4F, 9A]
+[11, F4, 05, 66]
+[AB, 64, EE, E5]
+[73, AF, EC, 1D]
+After ShiftRows (Round 3):
+[AF, 0A, 4F, 9A]
+[F4, 05, 66, 11]
+[EE, E5, AB, 64]
+[1D, 73, AF, EC]
+After MixColumns (Round 3):
+[B1, 8D, 30, 94]
+[68, 47, CA, F8]
+[BB, 4B, 8E, 6C]
+[CA, 18, 59, 03]
+After AddRoundKey (Round 3):
+[45, B7, 51, 5C]
+[BC, E2, 25, 07]
+[66, 67, AF, CE]
+[74, 48, 05, C5]
+After SubBytes (Round 4):
+[6E, A9, D1, 4A]
+[65, 98, 3F, C5]
+[33, 85, 79, 8B]
+[92, 52, 6B, A6]
+After ShiftRows (Round 4):
+[6E, A9, D1, 4A]
+[98, 3F, C5, 65]
+[79, 8B, 33, 85]
+[A6, 92, 52, 6B]
+After MixColumns (Round 4):
+[B0, 11, 8C, D5]
+[68, C3, 47, 7F]
+[F5, 36, 84, 83]
+[04, 6B, 3A, E8]
+After AddRoundKey (Round 4):
+[5A, C1, 3D, AC]
+[86, 88, E3, 24]
+[9C, 73, E0, 45]
+[52, 6D, 60, 74]
+After SubBytes (Round 5):
+[BE, 78, 27, 91]
+[44, C4, 11, 36]
+[DE, 8F, E1, 6E]
+[00, 3C, D0, 92]
+After ShiftRows (Round 5):
+[BE, 78, 27, 91]
+[C4, 11, 36, 44]
+[E1, 6E, DE, 8F]
+[92, 00, 3C, D0]
+After MixColumns (Round 5):
+[43, AD, F6, AA]
+[87, E8, 0E, 43]
+[0E, B5, F2, BB]
+[C3, F7, F9, D8]
+After AddRoundKey (Round 5):
+[80, BE, 54, 71]
+[DD, F9, BB, AD]
+[B9, 47, 64, EB]
+[23, 11, 45, F8]
+After SubBytes (Round 6):
+[CD, AE, 20, A3]
+[C1, 99, EA, 95]
+[56, A0, 43, E9]
+[26, 82, 6E, 41]
+After ShiftRows (Round 6):
+[CD, AE, 20, A3]
+[99, EA, 95, C1]
+[43, E9, 56, A0]
+[41, 26, 82, 6E]
+After MixColumns (Round 6):
+[33, AD, 30, CB]
+[60, 67, 69, AF]
+[11, E7, 84, 8B]
+[14, A6, BC, 43]
+After AddRoundKey (Round 6):
+[F8, 75, 4A, 6A]
+[69, 7F, C4, EC]
+[11, 15, E0, BF]
+[4D, 19, BF, 60]
+After SubBytes (Round 7):
+[41, 9D, D6, 02]
+[F9, D2, 1C, CE]
+[82, 59, E1, 08]
+[E3, D4, 08, D0]
+After ShiftRows (Round 7):
+[41, 9D, D6, 02]
+[D2, 1C, CE, F9]
+[E1, 08, 82, 59]
+[D0, E3, D4, 08]
+After MixColumns (Round 7):
+[DE, EE, A8, 45]
+[16, 5E, 18, 08]
+[21, AF, 60, 51]
+[4B, 75, 9E, B6]
+After AddRoundKey (Round 7):
+[4F, A7, 9B, D7]
+[07, 57, BC, EF]
+[07, 7B, D0, D5]
+[20, A1, 49, 42]
+After SubBytes (Round 8):
+[84, 5C, 14, 0E]
+[C5, 5B, 65, DF]
+[C5, 21, 70, 03]
+[B7, 32, 3B, 2C]
+After ShiftRows (Round 8):
+[84, 5C, 14, 0E]
+[5B, 65, DF, C5]
+[70, 03, C5, 21]
+[2C, B7, 32, 3B]
+After MixColumns (Round 8):
+[A2, A3, A5, 52]
+[8E, 24, D7, C7]
+[4B, FD, 0C, C4]
+[E4, F7, 42, 80]
+After AddRoundKey (Round 8):
+[27, 6F, 5A, 3F]
+[C0, 63, 34, C3]
+[D2, B0, F1, BD]
+[C0, 07, 65, 53]
+After SubBytes (Round 9):
+[CC, A8, BE, 75]
+[BA, FB, 18, 2E]
+[B5, E7, A1, 7A]
+[BA, C5, 4D, ED]
+After ShiftRows (Round 9):
+[CC, A8, BE, 75]
+[FB, 18, 2E, BA]
+[A1, 7A, B5, E7]
+[ED, BA, C5, 4D]
+After MixColumns (Round 9):
+[D9, A3, 65, 95]
+[34, AC, E3, 65]
+[42, 91, B5, CD]
+[D4, EE, D3, 58]
+After AddRoundKey (Round 9):
+[B5, 03, 3A, A7]
+[CC, 13, BF, 3D]
+[BD, 23, FA, FB]
+[CC, 06, 1C, 44]
+After SubBytes (Final Round):
+[D5, 7B, 80, 5C]
+[4B, 7D, 08, 27]
+[7A, 26, 2D, 0F]
+[4B, 6F, 9C, 1B]
+After ShiftRows (Final Round):
+[D5, 7B, 80, 5C]
+[7D, 08, 27, 4B]
+[2D, 0F, 7A, 26]
+[1B, 4B, 6F, 9C]
+After Final AddRoundKey:
+[E5, EB, 4F, A1]
+[80, 4A, 39, 0D]
+[4E, DE, E4, 8E]
+[20, 98, 73, 9C]
+Encrypted Block: E5 80 4E 20 EB 4A DE 98 4F 39 E4 73 A1 0D 8E 9C
+
+Processing Block 2 of 3
+Block Content: 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B
+Initial State:
+[6B, 6B, 6B, 6B]
+[6B, 6B, 6B, 6B]
+[6B, 6B, 6B, 6B]
+[6B, 6B, 6B, 6B]
+After Initial AddRoundKey:
+[03, 19, 0A, 0C]
+[0A, 03, 19, 0A]
+[0C, 0A, 03, 19]
+[0A, 0C, 0A, 1F]
+After SubBytes (Round 1):
+[7B, D4, 67, FE]
+[67, 7B, D4, 67]
+[FE, 67, 7B, D4]
+[67, FE, 67, C0]
+After ShiftRows (Round 1):
+[7B, D4, 67, FE]
+[7B, D4, 67, 67]
+[7B, D4, FE, 67]
+[C0, 67, FE, 67]
+After MixColumns (Round 1):
+[C0, 67, 67, 4E]
+[C0, 67, 4E, FE]
+[AD, 1A, FE, FE]
+[16, A9, D7, D7]
+After AddRoundKey (Round 1):
+[46, 93, F2, BC]
+[E1, 2E, 75, A4]
+[58, 8E, 02, 70]
+[F2, 2A, 35, 41]
+After SubBytes (Round 2):
+[5A, DC, 89, 65]
+[F8, 31, 9D, 49]
+[6A, 19, 77, 51]
+[89, E5, 96, 83]
+After ShiftRows (Round 2):
+[5A, DC, 89, 65]
+[31, 9D, 49, F8]
+[77, 51, 6A, 19]
+[83, 89, E5, 96]
+After MixColumns (Round 2):
+[13, C7, 5D, 56]
+[22, 87, 40, 33]
+[1B, 63, 20, 0E]
+[B5, BA, 72, 79]
+After AddRoundKey (Round 2):
+[29, 09, 06, FF]
+[1A, F6, 0A, 23]
+[7E, 92, 2D, 8D]
+[D8, 54, 7E, E3]
+After SubBytes (Round 3):
+[A5, 01, 6F, 16]
+[A2, 42, 67, 26]
+[F3, 4F, D8, 5D]
+[61, 20, F3, 11]
+After ShiftRows (Round 3):
+[A5, 01, 6F, 16]
+[42, 67, 26, A2]
+[D8, 5D, F3, 4F]
+[11, 61, 20, F3]
+After MixColumns (Round 3):
+[5E, 97, 67, 6D]
+[43, 49, 0D, 6B]
+[7F, 7F, D4, 24]
+[4C, FB, 24, 2A]
+After AddRoundKey (Round 3):
+[AA, AD, 06, A5]
+[97, EC, E2, 94]
+[A2, 53, F5, 86]
+[F2, AB, 78, EC]
+After SubBytes (Round 4):
+[AC, 95, 6F, 06]
+[88, CE, 98, 22]
+[3A, ED, E6, 44]
+[89, 62, BC, CE]
+After ShiftRows (Round 4):
+[AC, 95, 6F, 06]
+[CE, 98, 22, 88]
+[E6, 44, 3A, ED]
+[CE, 89, 62, BC]
+After MixColumns (Round 4):
+[22, 4F, E0, DE]
+[D4, FB, 07, 9D]
+[FC, 05, 9F, 90]
+[40, 71, 6D, 0C]
+After AddRoundKey (Round 4):
+[C8, 9F, 51, A7]
+[3A, B0, A3, C6]
+[95, 40, FB, 56]
+[16, 77, 37, 90]
+After SubBytes (Round 5):
+[E8, DB, D1, 5C]
+[80, E7, 0A, B4]
+[2A, 09, 0F, B1]
+[47, F5, 9A, 60]
+After ShiftRows (Round 5):
+[E8, DB, D1, 5C]
+[E7, 0A, B4, 80]
+[0F, B1, 2A, 09]
+[60, 47, F5, 9A]
+After MixColumns (Round 5):
+[96, 45, A1, B0]
+[4C, 40, 29, C6]
+[B1, 61, 35, 7B]
+[0B, 43, 07, 42]
+After AddRoundKey (Round 5):
+[55, 56, 03, 6B]
+[16, 51, 9C, 28]
+[06, 93, A3, 2B]
+[EB, A5, BB, 62]
+After SubBytes (Round 6):
+[FC, B1, 7B, 7F]
+[47, D1, DE, 34]
+[6F, DC, 0A, F1]
+[E9, 06, EA, AA]
+After ShiftRows (Round 6):
+[FC, B1, 7B, 7F]
+[D1, DE, 34, 47]
+[0A, F1, 6F, DC]
+[AA, E9, 06, EA]
+After MixColumns (Round 6):
+[2B, 18, C3, 01]
+[F1, F7, A4, 64]
+[DC, B6, 9B, BE]
+[8B, 2E, DA, D5]
+After AddRoundKey (Round 6):
+[E0, C0, B9, A0]
+[F8, EF, 09, 27]
+[DC, 44, FF, 8A]
+[D2, 91, D9, F6]
+After SubBytes (Round 7):
+[E1, BA, 56, E0]
+[41, DF, 01, CC]
+[86, 1B, 16, 7E]
+[B5, 81, 35, 42]
+After ShiftRows (Round 7):
+[E1, BA, 56, E0]
+[DF, 01, CC, 41]
+[16, 7E, 86, 1B]
+[42, B5, 81, 35]
+After MixColumns (Round 7):
+[F7, A7, E4, 36]
+[3C, 8F, C5, 7A]
+[D4, 83, 15, C8]
+[75, DB, A9, 0B]
+After AddRoundKey (Round 7):
+[66, EE, D7, A4]
+[2D, 86, 61, 9D]
+[F2, 57, A5, 4C]
+[1E, 0F, 7E, FF]
+After SubBytes (Round 8):
+[33, 28, 0E, 49]
+[D8, 44, EF, 5E]
+[89, 5B, 06, 29]
+[72, 76, F3, 16]
+After ShiftRows (Round 8):
+[33, 28, 0E, 49]
+[44, EF, 5E, D8]
+[06, 29, 89, 5B]
+[16, 72, 76, F3]
+After MixColumns (Round 8):
+[BA, 21, 01, 49]
+[A7, E4, 44, FC]
+[41, 03, C3, 29]
+[3B, 5A, 29, A5]
+After AddRoundKey (Round 8):
+[3F, ED, FE, 24]
+[E9, A3, A7, F8]
+[D8, 4E, 3E, 50]
+[1F, AA, 0E, 76]
+After SubBytes (Round 9):
+[75, 55, BB, 36]
+[1E, 0A, 5C, 41]
+[61, 2F, B2, 53]
+[C0, AC, AB, 38]
+After ShiftRows (Round 9):
+[75, 55, BB, 36]
+[0A, 5C, 41, 1E]
+[B2, 53, 61, 2F]
+[38, C0, AC, AB]
+After MixColumns (Round 9):
+[7E, DD, 63, CA]
+[94, D8, 36, D0]
+[48, F4, D7, 90]
+[57, 6B, B5, 26]
+After AddRoundKey (Round 9):
+[12, 7D, 3C, F8]
+[6C, 67, 6A, 88]
+[B7, 46, 98, A6]
+[4F, 83, 7A, 3A]
+After SubBytes (Final Round):
+[C9, FF, EB, 41]
+[50, 85, 02, C4]
+[A9, 5A, 46, 24]
+[84, EC, DA, 80]
+After ShiftRows (Final Round):
+[C9, FF, EB, 41]
+[85, 02, C4, 50]
+[46, 24, A9, 5A]
+[80, 84, EC, DA]
+After Final AddRoundKey:
+[F9, 6F, 24, BC]
+[78, 40, DA, 16]
+[25, F5, 37, F2]
+[BB, 57, F0, DA]
+Encrypted Block: F9 78 25 BB 6F 40 F5 57 24 DA 37 F0 BC 16 F2 DA
+
+Processing Block 3 of 3
+Block Content: 6B 6B 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E
+Initial State:
+[6B, 0E, 0E, 0E]
+[6B, 0E, 0E, 0E]
+[0E, 0E, 0E, 0E]
+[0E, 0E, 0E, 0E]
+After Initial AddRoundKey:
+[03, 7C, 6F, 69]
+[0A, 66, 7C, 6F]
+[69, 6F, 66, 7C]
+[6F, 69, 6F, 7A]
+After SubBytes (Round 1):
+[7B, 10, A8, F9]
+[67, 33, 10, A8]
+[F9, A8, 33, 10]
+[A8, F9, A8, DA]
+After ShiftRows (Round 1):
+[7B, 10, A8, F9]
+[33, 10, A8, 67]
+[33, 10, F9, A8]
+[DA, A8, F9, A8]
+After MixColumns (Round 1):
+[4A, A8, A8, 40]
+[92, A8, 0A, 7C]
+[5B, C3, F9, 36]
+[22, 7B, 5B, 94]
+After AddRoundKey (Round 1):
+[CC, 5C, 3D, B2]
+[B3, E1, 31, 26]
+[AE, 57, 05, B8]
+[C6, F8, B9, 02]
+After SubBytes (Round 2):
+[4B, 4A, 27, 37]
+[6D, F8, C7, F7]
+[E4, 5B, 6B, 6C]
+[B4, 41, 56, 77]
+After ShiftRows (Round 2):
+[4B, 4A, 27, 37]
+[F8, C7, F7, 6D]
+[6B, 6C, E4, 5B]
+[77, B4, 41, 56]
+After MixColumns (Round 2):
+[99, 1E, E9, D4]
+[6A, DF, A4, 56]
+[FC, 92, C0, 16]
+[A0, 06, F8, C3]
+After AddRoundKey (Round 2):
+[A3, D0, B2, 7D]
+[52, AE, EE, 46]
+[99, 63, CD, 95]
+[CD, E8, F4, 59]
+After SubBytes (Round 3):
+[0A, 70, 37, FF]
+[00, E4, 28, 5A]
+[EE, FB, BD, 2A]
+[BD, 9B, BF, CB]
+After ShiftRows (Round 3):
+[0A, 70, 37, FF]
+[E4, 28, 5A, 00]
+[BD, 2A, EE, FB]
+[CB, BD, 9B, BF]
+After MixColumns (Round 3):
+[55, 0F, F5, A1]
+[CE, E3, 31, 56]
+[C9, D0, 1C, C8]
+[CA, F3, C0, 84]
+After AddRoundKey (Round 3):
+[A1, 35, 94, 69]
+[1A, 46, DE, A9]
+[14, FC, 3D, 6A]
+[74, A3, 9C, 42]
+After SubBytes (Round 4):
+[32, 96, 22, F9]
+[A2, 5A, 1D, D3]
+[FA, B0, 27, 02]
+[92, 0A, DE, 2C]
+After ShiftRows (Round 4):
+[32, 96, 22, F9]
+[5A, 1D, D3, A2]
+[27, 02, FA, B0]
+[2C, 92, 0A, DE]
+After MixColumns (Round 4):
+[81, 80, DA, 7A]
+[C3, 38, 80, B3]
+[52, 22, 00, 59]
+[73, 81, 5B, A5]
+After AddRoundKey (Round 4):
+[6B, 50, 6B, 03]
+[2D, 73, 24, E8]
+[3B, 67, 64, 9F]
+[25, 87, 01, 39]
+After SubBytes (Round 5):
+[7F, 53, 7F, 7B]
+[D8, 8F, 36, 9B]
+[E2, 85, 43, DB]
+[3F, 17, 7C, 12]
+After ShiftRows (Round 5):
+[7F, 53, 7F, 7B]
+[8F, 36, 9B, D8]
+[43, DB, E2, 85]
+[12, 3F, 17, 7C]
+After MixColumns (Round 5):
+[25, 18, BD, 7C]
+[AD, 76, 78, 38]
+[40, 89, 02, 36]
+[69, 66, D6, 28]
+After AddRoundKey (Round 5):
+[E6, 0B, 1F, A7]
+[F7, 67, CD, D6]
+[F7, 7B, 94, 66]
+[89, 80, 6A, 08]
+After SubBytes (Round 6):
+[8E, 2B, C0, 5C]
+[68, 85, BD, F6]
+[68, 21, 22, 33]
+[A7, CD, 02, 30]
+After ShiftRows (Round 6):
+[8E, 2B, C0, 5C]
+[85, BD, F6, 68]
+[22, 33, 68, 21]
+[30, A7, CD, 02]
+After MixColumns (Round 6):
+[81, 1E, 3F, 23]
+[C9, B8, 42, ED]
+[1F, 02, AA, 70]
+[4E, A6, 44, A9]
+After AddRoundKey (Round 6):
+[4A, C6, 45, 82]
+[C0, A0, EF, AE]
+[1F, F0, CE, 44]
+[17, 19, 47, 8A]
+After SubBytes (Round 7):
+[D6, B4, 6E, 13]
+[BA, E0, DF, E4]
+[C0, 8C, 8B, 1B]
+[F0, D4, A0, 7E]
+After ShiftRows (Round 7):
+[D6, B4, 6E, 13]
+[E0, DF, E4, BA]
+[8B, 1B, C0, 8C]
+[7E, F0, D4, A0]
+After MixColumns (Round 7):
+[79, E2, FF, DF]
+[F5, CC, 32, 53]
+[B9, 56, 76, 51]
+[F6, F8, 25, 58]
+After AddRoundKey (Round 7):
+[E8, AB, CC, 4D]
+[E4, C5, 96, B4]
+[9F, 82, C6, D5]
+[9D, 2C, F2, AC]
+After SubBytes (Round 8):
+[9B, 62, 4B, E3]
+[69, A6, 90, 8D]
+[DB, 13, B4, 03]
+[5E, 71, 89, 91]
+After ShiftRows (Round 8):
+[9B, 62, 4B, E3]
+[A6, 90, 8D, 69]
+[B4, 03, DB, 13]
+[91, 5E, 71, 89]
+After MixColumns (Round 8):
+[F9, 32, B0, FC]
+[9A, 02, 4D, 8D]
+[E6, 16, F8, 2C]
+[9D, 89, 69, 4D]
+After AddRoundKey (Round 8):
+[7C, FE, 4F, 91]
+[D4, 45, AE, 89]
+[7F, 5B, 05, 55]
+[B9, 79, 4E, 9E]
+After SubBytes (Round 9):
+[10, BB, 84, 81]
+[48, 6E, E4, A7]
+[D2, 39, 6B, FC]
+[56, B6, 2F, 0B]
+After ShiftRows (Round 9):
+[10, BB, 84, 81]
+[6E, E4, A7, 48]
+[6B, FC, D2, 39]
+[0B, 56, B6, 2F]
+After MixColumns (Round 9):
+[F2, F0, 85, D7]
+[7A, 21, 0A, 75]
+[B5, 46, 5D, CA]
+[23, 62, 95, B7]
+After AddRoundKey (Round 9):
+[9E, 50, DA, E5]
+[82, 9E, 56, 2D]
+[4A, F4, 12, FC]
+[3B, 8A, 5A, AB]
+After SubBytes (Final Round):
+[0B, 53, 57, D9]
+[13, 0B, B1, D8]
+[D6, BF, C9, B0]
+[E2, 7E, BE, 62]
+After ShiftRows (Final Round):
+[0B, 53, 57, D9]
+[0B, B1, D8, 13]
+[C9, B0, D6, BF]
+[62, E2, 7E, BE]
+After Final AddRoundKey:
+[3B, C3, 98, 24]
+[F6, F3, C6, 55]
+[AA, 61, 48, 17]
+[59, 31, 62, BE]
+Encrypted Block: 3B F6 AA 59 C3 F3 61 31 98 C6 48 62 24 55 17 BE
+
+Final Encrypted Result: E5 80 4E 20 EB 4A DE 98 4F 39 E4 73 A1 0D 8E 9CF9 78 25 BB 6F 40 F5 57 24 DA 37 F0 BC 16 F2 DA3B F6 AA 59 C3 F3 61 31 98 C6 48 62 24 55 17 BE
+=== Starting AES Decryption ===
+Encrypted Input: E5804E20EB4ADE984F39E473A10D8E9CF97825BB6F40F55724DA37F0BC16F2DA3BF6AA59C3F3613198C64862245517BE
+Key: hagarhagarhagart
+
+Round Key 1:
+[86, 21, F5, E4]
+[F4, 49, 94, 83]
+[95, 3B, FC, E2]
+[F2, 5A, 8E, 96]
+
+Round Key 2:
+[3A, 38, 65, 6D]
+[CE, 71, F1, EE]
+[5B, 4A, 0D, 0C]
+[A9, 10, 83, 9A]
+
+Round Key 3:
+[F4, D4, DD, BE]
+[3A, A5, 2C, 50]
+[61, EF, 21, 5C]
+[C8, FF, A2, C6]
+
+Round Key 4:
+[EA, EE, 69, 56]
+[D0, 4B, 45, 06]
+[B1, A4, 64, 5A]
+[79, 5B, C6, 9C]
+
+Round Key 5:
+[C3, 5A, B7, E0]
+[13, 11, F2, E6]
+[A2, B5, 96, BC]
+[DB, EE, 50, 20]
+
+Round Key 6:
+[CB, 09, 00, 59]
+[D8, 18, F2, BF]
+[7A, AD, 64, 03]
+[A1, 43, 34, 23]
+
+Round Key 7:
+[91, 11, 26, 6B]
+[49, 09, D4, D4]
+[33, A4, B0, D7]
+[92, E7, 84, F4]
+
+Round Key 8:
+[85, 4E, 99, 24]
+[CC, 47, 4D, F0]
+[FF, E3, FD, 27]
+[6D, 04, 79, D3]
+
+Round Key 9:
+[6C, F8, FF, 18]
+[A0, BF, B2, E8]
+[5F, 5C, 4F, CF]
+[32, 58, 36, 1C]
+
+Round Key 10:
+[30, FD, 63, 3B]
+[90, 42, D1, D3]
+[CF, 1E, 9E, 1C]
+[FD, 46, A8, 00]
+
+Processing Block 1 of 3
+Block Content: E5 80 4E 20 EB 4A DE 98 4F 39 E4 73 A1 0D 8E 9C
+Initial State:
+[E5, EB, 4F, A1]
+[80, 4A, 39, 0D]
+[4E, DE, E4, 8E]
+[20, 98, 73, 9C]
+After Initial AddRoundKey:
+[D5, 7B, 80, 5C]
+[7D, 08, 27, 4B]
+[2D, 0F, 7A, 26]
+[1B, 4B, 6F, 9C]
+After InverseShiftRows (Round 9):
+[D5, 7B, 80, 5C]
+[4B, 7D, 08, 27]
+[7A, 26, 2D, 0F]
+[4B, 6F, 9C, 1B]
+After InverseSubBytes (Round 9):
+[B5, 03, 3A, A7]
+[CC, 13, BF, 3D]
+[BD, 23, FA, FB]
+[CC, 06, 1C, 44]
+After AddRoundKey (Round 9):
+[D9, A3, 65, 95]
+[34, AC, E3, 65]
+[42, 91, B5, CD]
+[D4, EE, D3, 58]
+After InverseMixColumns (Round 9):
+[CC, A8, BE, 75]
+[FB, 18, 2E, BA]
+[A1, 7A, B5, E7]
+[ED, BA, C5, 4D]
+After InverseShiftRows (Round 8):
+[CC, A8, BE, 75]
+[BA, FB, 18, 2E]
+[B5, E7, A1, 7A]
+[BA, C5, 4D, ED]
+After InverseSubBytes (Round 8):
+[27, 6F, 5A, 3F]
+[C0, 63, 34, C3]
+[D2, B0, F1, BD]
+[C0, 07, 65, 53]
+After AddRoundKey (Round 8):
+[A2, A3, A5, 52]
+[8E, 24, D7, C7]
+[4B, FD, 0C, C4]
+[E4, F7, 42, 80]
+After InverseMixColumns (Round 8):
+[84, 5C, 14, 0E]
+[5B, 65, DF, C5]
+[70, 03, C5, 21]
+[2C, B7, 32, 3B]
+After InverseShiftRows (Round 7):
+[84, 5C, 14, 0E]
+[C5, 5B, 65, DF]
+[C5, 21, 70, 03]
+[B7, 32, 3B, 2C]
+After InverseSubBytes (Round 7):
+[4F, A7, 9B, D7]
+[07, 57, BC, EF]
+[07, 7B, D0, D5]
+[20, A1, 49, 42]
+After AddRoundKey (Round 7):
+[DE, EE, A8, 45]
+[16, 5E, 18, 08]
+[21, AF, 60, 51]
+[4B, 75, 9E, B6]
+After InverseMixColumns (Round 7):
+[41, 9D, D6, 02]
+[D2, 1C, CE, F9]
+[E1, 08, 82, 59]
+[D0, E3, D4, 08]
+After InverseShiftRows (Round 6):
+[41, 9D, D6, 02]
+[F9, D2, 1C, CE]
+[82, 59, E1, 08]
+[E3, D4, 08, D0]
+After InverseSubBytes (Round 6):
+[F8, 75, 4A, 6A]
+[69, 7F, C4, EC]
+[11, 15, E0, BF]
+[4D, 19, BF, 60]
+After AddRoundKey (Round 6):
+[33, AD, 30, CB]
+[60, 67, 69, AF]
+[11, E7, 84, 8B]
+[14, A6, BC, 43]
+After InverseMixColumns (Round 6):
+[CD, AE, 20, A3]
+[99, EA, 95, C1]
+[43, E9, 56, A0]
+[41, 26, 82, 6E]
+After InverseShiftRows (Round 5):
+[CD, AE, 20, A3]
+[C1, 99, EA, 95]
+[56, A0, 43, E9]
+[26, 82, 6E, 41]
+After InverseSubBytes (Round 5):
+[80, BE, 54, 71]
+[DD, F9, BB, AD]
+[B9, 47, 64, EB]
+[23, 11, 45, F8]
+After AddRoundKey (Round 5):
+[43, AD, F6, AA]
+[87, E8, 0E, 43]
+[0E, B5, F2, BB]
+[C3, F7, F9, D8]
+After InverseMixColumns (Round 5):
+[BE, 78, 27, 91]
+[C4, 11, 36, 44]
+[E1, 6E, DE, 8F]
+[92, 00, 3C, D0]
+After InverseShiftRows (Round 4):
+[BE, 78, 27, 91]
+[44, C4, 11, 36]
+[DE, 8F, E1, 6E]
+[00, 3C, D0, 92]
+After InverseSubBytes (Round 4):
+[5A, C1, 3D, AC]
+[86, 88, E3, 24]
+[9C, 73, E0, 45]
+[52, 6D, 60, 74]
+After AddRoundKey (Round 4):
+[B0, 11, 8C, D5]
+[68, C3, 47, 7F]
+[F5, 36, 84, 83]
+[04, 6B, 3A, E8]
+After InverseMixColumns (Round 4):
+[6E, A9, D1, 4A]
+[98, 3F, C5, 65]
+[79, 8B, 33, 85]
+[A6, 92, 52, 6B]
+After InverseShiftRows (Round 3):
+[6E, A9, D1, 4A]
+[65, 98, 3F, C5]
+[33, 85, 79, 8B]
+[92, 52, 6B, A6]
+After InverseSubBytes (Round 3):
+[45, B7, 51, 5C]
+[BC, E2, 25, 07]
+[66, 67, AF, CE]
+[74, 48, 05, C5]
+After AddRoundKey (Round 3):
+[B1, 8D, 30, 94]
+[68, 47, CA, F8]
+[BB, 4B, 8E, 6C]
+[CA, 18, 59, 03]
+After InverseMixColumns (Round 3):
+[AF, 0A, 4F, 9A]
+[F4, 05, 66, 11]
+[EE, E5, AB, 64]
+[1D, 73, AF, EC]
+After InverseShiftRows (Round 2):
+[AF, 0A, 4F, 9A]
+[11, F4, 05, 66]
+[AB, 64, EE, E5]
+[73, AF, EC, 1D]
+After InverseSubBytes (Round 2):
+[1B, A3, 92, 37]
+[E3, BA, 36, D3]
+[0E, 8C, 99, 2A]
+[8F, 1B, 83, DE]
+After AddRoundKey (Round 2):
+[21, 6D, C9, 9E]
+[DB, CB, 7C, C3]
+[6B, 7D, 94, A9]
+[E2, F5, 8F, 44]
+After InverseMixColumns (Round 2):
+[3B, 3F, 7E, BF]
+[82, 01, FF, 7A]
+[97, 73, 64, F3]
+[5D, 63, 4B, 86]
+After InverseShiftRows (Round 1):
+[3B, 3F, 7E, BF]
+[7A, 82, 01, FF]
+[64, F3, 97, 73]
+[63, 4B, 86, 5D]
+After InverseSubBytes (Round 1):
+[49, 25, 8A, F4]
+[BD, 11, 09, 7D]
+[8C, 7E, 85, 8F]
+[00, CC, DC, 8D]
+After AddRoundKey (Round 1):
+[CF, D1, 1F, 06]
+[9C, 58, 32, 27]
+[79, EA, 79, 01]
+[E4, 4F, 3E, 1B]
+After InverseMixColumns (Round 1):
+[63, 63, D1, A0]
+[52, 2C, 83, 63]
+[52, 00, 63, D1]
+[AD, 63, 5B, 29]
+After InverseShiftRows (Final Round):
+[63, 63, D1, A0]
+[63, 52, 2C, 83]
+[63, D1, 52, 00]
+[63, 5B, 29, AD]
+After InverseSubBytes (Final Round):
+[00, 00, 51, 47]
+[00, 48, 42, 41]
+[00, 51, 48, 52]
+[00, 57, 4C, 18]
+After Final AddRoundKey:
+[68, 72, 30, 20]
+[61, 20, 30, 20]
+[67, 30, 20, 20]
+[61, 30, 2D, 6C]
+Decrypted Block: 68 61 67 61 72 20 30 30 30 30 20 2D 20 20 20 6C
+
+Processing Block 2 of 3
+Block Content: F9 78 25 BB 6F 40 F5 57 24 DA 37 F0 BC 16 F2 DA
+Initial State:
+[F9, 6F, 24, BC]
+[78, 40, DA, 16]
+[25, F5, 37, F2]
+[BB, 57, F0, DA]
+After Initial AddRoundKey:
+[C9, FF, EB, 41]
+[85, 02, C4, 50]
+[46, 24, A9, 5A]
+[80, 84, EC, DA]
+After InverseShiftRows (Round 9):
+[C9, FF, EB, 41]
+[50, 85, 02, C4]
+[A9, 5A, 46, 24]
+[84, EC, DA, 80]
+After InverseSubBytes (Round 9):
+[12, 7D, 3C, F8]
+[6C, 67, 6A, 88]
+[B7, 46, 98, A6]
+[4F, 83, 7A, 3A]
+After AddRoundKey (Round 9):
+[7E, DD, 63, CA]
+[94, D8, 36, D0]
+[48, F4, D7, 90]
+[57, 6B, B5, 26]
+After InverseMixColumns (Round 9):
+[75, 55, BB, 36]
+[0A, 5C, 41, 1E]
+[B2, 53, 61, 2F]
+[38, C0, AC, AB]
+After InverseShiftRows (Round 8):
+[75, 55, BB, 36]
+[1E, 0A, 5C, 41]
+[61, 2F, B2, 53]
+[C0, AC, AB, 38]
+After InverseSubBytes (Round 8):
+[3F, ED, FE, 24]
+[E9, A3, A7, F8]
+[D8, 4E, 3E, 50]
+[1F, AA, 0E, 76]
+After AddRoundKey (Round 8):
+[BA, 21, 01, 49]
+[A7, E4, 44, FC]
+[41, 03, C3, 29]
+[3B, 5A, 29, A5]
+After InverseMixColumns (Round 8):
+[33, 28, 0E, 49]
+[44, EF, 5E, D8]
+[06, 29, 89, 5B]
+[16, 72, 76, F3]
+After InverseShiftRows (Round 7):
+[33, 28, 0E, 49]
+[D8, 44, EF, 5E]
+[89, 5B, 06, 29]
+[72, 76, F3, 16]
+After InverseSubBytes (Round 7):
+[66, EE, D7, A4]
+[2D, 86, 61, 9D]
+[F2, 57, A5, 4C]
+[1E, 0F, 7E, FF]
+After AddRoundKey (Round 7):
+[F7, A7, E4, 36]
+[3C, 8F, C5, 7A]
+[D4, 83, 15, C8]
+[75, DB, A9, 0B]
+After InverseMixColumns (Round 7):
+[E1, BA, 56, E0]
+[DF, 01, CC, 41]
+[16, 7E, 86, 1B]
+[42, B5, 81, 35]
+After InverseShiftRows (Round 6):
+[E1, BA, 56, E0]
+[41, DF, 01, CC]
+[86, 1B, 16, 7E]
+[B5, 81, 35, 42]
+After InverseSubBytes (Round 6):
+[E0, C0, B9, A0]
+[F8, EF, 09, 27]
+[DC, 44, FF, 8A]
+[D2, 91, D9, F6]
+After AddRoundKey (Round 6):
+[2B, 18, C3, 01]
+[F1, F7, A4, 64]
+[DC, B6, 9B, BE]
+[8B, 2E, DA, D5]
+After InverseMixColumns (Round 6):
+[FC, B1, 7B, 7F]
+[D1, DE, 34, 47]
+[0A, F1, 6F, DC]
+[AA, E9, 06, EA]
+After InverseShiftRows (Round 5):
+[FC, B1, 7B, 7F]
+[47, D1, DE, 34]
+[6F, DC, 0A, F1]
+[E9, 06, EA, AA]
+After InverseSubBytes (Round 5):
+[55, 56, 03, 6B]
+[16, 51, 9C, 28]
+[06, 93, A3, 2B]
+[EB, A5, BB, 62]
+After AddRoundKey (Round 5):
+[96, 45, A1, B0]
+[4C, 40, 29, C6]
+[B1, 61, 35, 7B]
+[0B, 43, 07, 42]
+After InverseMixColumns (Round 5):
+[E8, DB, D1, 5C]
+[E7, 0A, B4, 80]
+[0F, B1, 2A, 09]
+[60, 47, F5, 9A]
+After InverseShiftRows (Round 4):
+[E8, DB, D1, 5C]
+[80, E7, 0A, B4]
+[2A, 09, 0F, B1]
+[47, F5, 9A, 60]
+After InverseSubBytes (Round 4):
+[C8, 9F, 51, A7]
+[3A, B0, A3, C6]
+[95, 40, FB, 56]
+[16, 77, 37, 90]
+After AddRoundKey (Round 4):
+[22, 4F, E0, DE]
+[D4, FB, 07, 9D]
+[FC, 05, 9F, 90]
+[40, 71, 6D, 0C]
+After InverseMixColumns (Round 4):
+[AC, 95, 6F, 06]
+[CE, 98, 22, 88]
+[E6, 44, 3A, ED]
+[CE, 89, 62, BC]
+After InverseShiftRows (Round 3):
+[AC, 95, 6F, 06]
+[88, CE, 98, 22]
+[3A, ED, E6, 44]
+[89, 62, BC, CE]
+After InverseSubBytes (Round 3):
+[AA, AD, 06, A5]
+[97, EC, E2, 94]
+[A2, 53, F5, 86]
+[F2, AB, 78, EC]
+After AddRoundKey (Round 3):
+[5E, 97, 67, 6D]
+[43, 49, 0D, 6B]
+[7F, 7F, D4, 24]
+[4C, FB, 24, 2A]
+After InverseMixColumns (Round 3):
+[A5, 01, 6F, 16]
+[42, 67, 26, A2]
+[D8, 5D, F3, 4F]
+[11, 61, 20, F3]
+After InverseShiftRows (Round 2):
+[A5, 01, 6F, 16]
+[A2, 42, 67, 26]
+[F3, 4F, D8, 5D]
+[61, 20, F3, 11]
+After InverseSubBytes (Round 2):
+[29, 09, 06, FF]
+[1A, F6, 0A, 23]
+[7E, 92, 2D, 8D]
+[D8, 54, 7E, E3]
+After AddRoundKey (Round 2):
+[13, C7, 5D, 56]
+[22, 87, 40, 33]
+[1B, 63, 20, 0E]
+[B5, BA, 72, 79]
+After InverseMixColumns (Round 2):
+[5A, DC, 89, 65]
+[31, 9D, 49, F8]
+[77, 51, 6A, 19]
+[83, 89, E5, 96]
+After InverseShiftRows (Round 1):
+[5A, DC, 89, 65]
+[F8, 31, 9D, 49]
+[6A, 19, 77, 51]
+[89, E5, 96, 83]
+After InverseSubBytes (Round 1):
+[46, 93, F2, BC]
+[E1, 2E, 75, A4]
+[58, 8E, 02, 70]
+[F2, 2A, 35, 41]
+After AddRoundKey (Round 1):
+[C0, 67, 67, 4E]
+[C0, 67, 4E, FE]
+[AD, 1A, FE, FE]
+[16, A9, D7, D7]
+After InverseMixColumns (Round 1):
+[7B, D4, 67, FE]
+[7B, D4, 67, 67]
+[7B, D4, FE, 67]
+[C0, 67, FE, 67]
+After InverseShiftRows (Final Round):
+[7B, D4, 67, FE]
+[67, 7B, D4, 67]
+[FE, 67, 7B, D4]
+[67, FE, 67, C0]
+After InverseSubBytes (Final Round):
+[03, 19, 0A, 0C]
+[0A, 03, 19, 0A]
+[0C, 0A, 03, 19]
+[0A, 0C, 0A, 1F]
+After Final AddRoundKey:
+[6B, 6B, 6B, 6B]
+[6B, 6B, 6B, 6B]
+[6B, 6B, 6B, 6B]
+[6B, 6B, 6B, 6B]
+Decrypted Block: 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B 6B
+
+Processing Block 3 of 3
+Block Content: 3B F6 AA 59 C3 F3 61 31 98 C6 48 62 24 55 17 BE
+Initial State:
+[3B, C3, 98, 24]
+[F6, F3, C6, 55]
+[AA, 61, 48, 17]
+[59, 31, 62, BE]
+After Initial AddRoundKey:
+[0B, 53, 57, D9]
+[0B, B1, D8, 13]
+[C9, B0, D6, BF]
+[62, E2, 7E, BE]
+After InverseShiftRows (Round 9):
+[0B, 53, 57, D9]
+[13, 0B, B1, D8]
+[D6, BF, C9, B0]
+[E2, 7E, BE, 62]
+After InverseSubBytes (Round 9):
+[9E, 50, DA, E5]
+[82, 9E, 56, 2D]
+[4A, F4, 12, FC]
+[3B, 8A, 5A, AB]
+After AddRoundKey (Round 9):
+[F2, F0, 85, D7]
+[7A, 21, 0A, 75]
+[B5, 46, 5D, CA]
+[23, 62, 95, B7]
+After InverseMixColumns (Round 9):
+[10, BB, 84, 81]
+[6E, E4, A7, 48]
+[6B, FC, D2, 39]
+[0B, 56, B6, 2F]
+After InverseShiftRows (Round 8):
+[10, BB, 84, 81]
+[48, 6E, E4, A7]
+[D2, 39, 6B, FC]
+[56, B6, 2F, 0B]
+After InverseSubBytes (Round 8):
+[7C, FE, 4F, 91]
+[D4, 45, AE, 89]
+[7F, 5B, 05, 55]
+[B9, 79, 4E, 9E]
+After AddRoundKey (Round 8):
+[F9, 32, B0, FC]
+[9A, 02, 4D, 8D]
+[E6, 16, F8, 2C]
+[9D, 89, 69, 4D]
+After InverseMixColumns (Round 8):
+[9B, 62, 4B, E3]
+[A6, 90, 8D, 69]
+[B4, 03, DB, 13]
+[91, 5E, 71, 89]
+After InverseShiftRows (Round 7):
+[9B, 62, 4B, E3]
+[69, A6, 90, 8D]
+[DB, 13, B4, 03]
+[5E, 71, 89, 91]
+After InverseSubBytes (Round 7):
+[E8, AB, CC, 4D]
+[E4, C5, 96, B4]
+[9F, 82, C6, D5]
+[9D, 2C, F2, AC]
+After AddRoundKey (Round 7):
+[79, E2, FF, DF]
+[F5, CC, 32, 53]
+[B9, 56, 76, 51]
+[F6, F8, 25, 58]
+After InverseMixColumns (Round 7):
+[D6, B4, 6E, 13]
+[E0, DF, E4, BA]
+[8B, 1B, C0, 8C]
+[7E, F0, D4, A0]
+After InverseShiftRows (Round 6):
+[D6, B4, 6E, 13]
+[BA, E0, DF, E4]
+[C0, 8C, 8B, 1B]
+[F0, D4, A0, 7E]
+After InverseSubBytes (Round 6):
+[4A, C6, 45, 82]
+[C0, A0, EF, AE]
+[1F, F0, CE, 44]
+[17, 19, 47, 8A]
+After AddRoundKey (Round 6):
+[81, 1E, 3F, 23]
+[C9, B8, 42, ED]
+[1F, 02, AA, 70]
+[4E, A6, 44, A9]
+After InverseMixColumns (Round 6):
+[8E, 2B, C0, 5C]
+[85, BD, F6, 68]
+[22, 33, 68, 21]
+[30, A7, CD, 02]
+After InverseShiftRows (Round 5):
+[8E, 2B, C0, 5C]
+[68, 85, BD, F6]
+[68, 21, 22, 33]
+[A7, CD, 02, 30]
+After InverseSubBytes (Round 5):
+[E6, 0B, 1F, A7]
+[F7, 67, CD, D6]
+[F7, 7B, 94, 66]
+[89, 80, 6A, 08]
+After AddRoundKey (Round 5):
+[25, 18, BD, 7C]
+[AD, 76, 78, 38]
+[40, 89, 02, 36]
+[69, 66, D6, 28]
+After InverseMixColumns (Round 5):
+[7F, 53, 7F, 7B]
+[8F, 36, 9B, D8]
+[43, DB, E2, 85]
+[12, 3F, 17, 7C]
+After InverseShiftRows (Round 4):
+[7F, 53, 7F, 7B]
+[D8, 8F, 36, 9B]
+[E2, 85, 43, DB]
+[3F, 17, 7C, 12]
+After InverseSubBytes (Round 4):
+[6B, 50, 6B, 03]
+[2D, 73, 24, E8]
+[3B, 67, 64, 9F]
+[25, 87, 01, 39]
+After AddRoundKey (Round 4):
+[81, 80, DA, 7A]
+[C3, 38, 80, B3]
+[52, 22, 00, 59]
+[73, 81, 5B, A5]
+After InverseMixColumns (Round 4):
+[32, 96, 22, F9]
+[5A, 1D, D3, A2]
+[27, 02, FA, B0]
+[2C, 92, 0A, DE]
+After InverseShiftRows (Round 3):
+[32, 96, 22, F9]
+[A2, 5A, 1D, D3]
+[FA, B0, 27, 02]
+[92, 0A, DE, 2C]
+After InverseSubBytes (Round 3):
+[A1, 35, 94, 69]
+[1A, 46, DE, A9]
+[14, FC, 3D, 6A]
+[74, A3, 9C, 42]
+After AddRoundKey (Round 3):
+[55, 0F, F5, A1]
+[CE, E3, 31, 56]
+[C9, D0, 1C, C8]
+[CA, F3, C0, 84]
+After InverseMixColumns (Round 3):
+[0A, 70, 37, FF]
+[E4, 28, 5A, 00]
+[BD, 2A, EE, FB]
+[CB, BD, 9B, BF]
+After InverseShiftRows (Round 2):
+[0A, 70, 37, FF]
+[00, E4, 28, 5A]
+[EE, FB, BD, 2A]
+[BD, 9B, BF, CB]
+After InverseSubBytes (Round 2):
+[A3, D0, B2, 7D]
+[52, AE, EE, 46]
+[99, 63, CD, 95]
+[CD, E8, F4, 59]
+After AddRoundKey (Round 2):
+[99, 1E, E9, D4]
+[6A, DF, A4, 56]
+[FC, 92, C0, 16]
+[A0, 06, F8, C3]
+After InverseMixColumns (Round 2):
+[4B, 4A, 27, 37]
+[F8, C7, F7, 6D]
+[6B, 6C, E4, 5B]
+[77, B4, 41, 56]
+After InverseShiftRows (Round 1):
+[4B, 4A, 27, 37]
+[6D, F8, C7, F7]
+[E4, 5B, 6B, 6C]
+[B4, 41, 56, 77]
+After InverseSubBytes (Round 1):
+[CC, 5C, 3D, B2]
+[B3, E1, 31, 26]
+[AE, 57, 05, B8]
+[C6, F8, B9, 02]
+After AddRoundKey (Round 1):
+[4A, A8, A8, 40]
+[92, A8, 0A, 7C]
+[5B, C3, F9, 36]
+[22, 7B, 5B, 94]
+After InverseMixColumns (Round 1):
+[7B, 10, A8, F9]
+[33, 10, A8, 67]
+[33, 10, F9, A8]
+[DA, A8, F9, A8]
+After InverseShiftRows (Final Round):
+[7B, 10, A8, F9]
+[67, 33, 10, A8]
+[F9, A8, 33, 10]
+[A8, F9, A8, DA]
+After InverseSubBytes (Final Round):
+[03, 7C, 6F, 69]
+[0A, 66, 7C, 6F]
+[69, 6F, 66, 7C]
+[6F, 69, 6F, 7A]
+After Final AddRoundKey:
+[6B, 0E, 0E, 0E]
+[6B, 0E, 0E, 0E]
+[0E, 0E, 0E, 0E]
+[0E, 0E, 0E, 0E]
+Decrypted Block: 6B 6B 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E
+
+Final Decrypted Result: hagar 0000 -   lkkkkkkkkkkkkkkkkkk
+=== Starting AES Decryption ===
+Encrypted Input: 75804E20EB4ADE984F39E473A10D8E9CF97825BB6F40F55724DA37F0FC16F2DA3BF6AA59C3F3613198C64862245517BE
+Key: hagarhagarhagart
+
+Round Key 1:
+[86, 21, F5, E4]
+[F4, 49, 94, 83]
+[95, 3B, FC, E2]
+[F2, 5A, 8E, 96]
+
+Round Key 2:
+[3A, 38, 65, 6D]
+[CE, 71, F1, EE]
+[5B, 4A, 0D, 0C]
+[A9, 10, 83, 9A]
+
+Round Key 3:
+[F4, D4, DD, BE]
+[3A, A5, 2C, 50]
+[61, EF, 21, 5C]
+[C8, FF, A2, C6]
+
+Round Key 4:
+[EA, EE, 69, 56]
+[D0, 4B, 45, 06]
+[B1, A4, 64, 5A]
+[79, 5B, C6, 9C]
+
+Round Key 5:
+[C3, 5A, B7, E0]
+[13, 11, F2, E6]
+[A2, B5, 96, BC]
+[DB, EE, 50, 20]
+
+Round Key 6:
+[CB, 09, 00, 59]
+[D8, 18, F2, BF]
+[7A, AD, 64, 03]
+[A1, 43, 34, 23]
+
+Round Key 7:
+[91, 11, 26, 6B]
+[49, 09, D4, D4]
+[33, A4, B0, D7]
+[92, E7, 84, F4]
+
+Round Key 8:
+[85, 4E, 99, 24]
+[CC, 47, 4D, F0]
+[FF, E3, FD, 27]
+[6D, 04, 79, D3]
+
+Round Key 9:
+[6C, F8, FF, 18]
+[A0, BF, B2, E8]
+[5F, 5C, 4F, CF]
+[32, 58, 36, 1C]
+
+Round Key 10:
+[30, FD, 63, 3B]
+[90, 42, D1, D3]
+[CF, 1E, 9E, 1C]
+[FD, 46, A8, 00]
+
+Processing Block 1 of 3
+Block Content: 75 80 4E 20 EB 4A DE 98 4F 39 E4 73 A1 0D 8E 9C
+Initial State:
+[75, EB, 4F, A1]
+[80, 4A, 39, 0D]
+[4E, DE, E4, 8E]
+[20, 98, 73, 9C]
+After Initial AddRoundKey:
+[45, 7B, 80, 5C]
+[7D, 08, 27, 4B]
+[2D, 0F, 7A, 26]
+[1B, 4B, 6F, 9C]
+After InverseShiftRows (Round 9):
+[45, 7B, 80, 5C]
+[4B, 7D, 08, 27]
+[7A, 26, 2D, 0F]
+[4B, 6F, 9C, 1B]
+After InverseSubBytes (Round 9):
+[68, 03, 3A, A7]
+[CC, 13, BF, 3D]
+[BD, 23, FA, FB]
+[CC, 06, 1C, 44]
+After AddRoundKey (Round 9):
+[04, A3, 65, 95]
+[34, AC, E3, 65]
+[42, 91, B5, CD]
+[D4, EE, D3, 58]
+After InverseMixColumns (Round 9):
+[86, A8, BE, 75]
+[94, 18, 2E, BA]
+[97, 7A, B5, E7]
+[23, BA, C5, 4D]
+After InverseShiftRows (Round 8):
+[86, A8, BE, 75]
+[BA, 94, 18, 2E]
+[B5, E7, 97, 7A]
+[BA, C5, 4D, 23]
+After InverseSubBytes (Round 8):
+[DC, 6F, 5A, 3F]
+[C0, E7, 34, C3]
+[D2, B0, 85, BD]
+[C0, 07, 65, 32]
+After AddRoundKey (Round 8):
+[59, A3, A5, 52]
+[8E, A0, D7, C7]
+[4B, FD, 78, C4]
+[E4, F7, 42, E1]
+After InverseMixColumns (Round 8):
+[31, 87, 26, 4A]
+[39, 1C, CE, 1E]
+[D3, CB, 6B, A7]
+[A3, 59, CB, 43]
+After InverseShiftRows (Round 7):
+[31, 87, 26, 4A]
+[1E, 39, 1C, CE]
+[6B, A7, D3, CB]
+[59, CB, 43, A3]
+After InverseSubBytes (Round 7):
+[2E, EA, 23, 5C]
+[E9, 5B, C4, EC]
+[05, 89, A9, 59]
+[15, 59, 64, 71]
+After AddRoundKey (Round 7):
+[BF, A3, 10, CE]
+[F8, 52, 60, 0B]
+[23, 5D, 19, DD]
+[7E, 8D, B3, 85]
+After InverseMixColumns (Round 7):
+[BD, BD, 84, 0A]
+[B1, 2F, A3, AB]
+[15, 01, 22, 38]
+[03, B2, DF, 04]
+After InverseShiftRows (Round 6):
+[BD, BD, 84, 0A]
+[AB, B1, 2F, A3]
+[22, 38, 15, 01]
+[B2, DF, 04, 03]
+After InverseSubBytes (Round 6):
+[CD, CD, 4F, A3]
+[0E, 56, 4E, 71]
+[94, 76, 2F, 09]
+[3E, EF, 30, D5]
+After AddRoundKey (Round 6):
+[06, 15, 35, 02]
+[07, 4E, E3, 32]
+[94, 84, 4B, 3D]
+[67, 50, 33, F6]
+After InverseMixColumns (Round 6):
+[59, 4A, C8, FC]
+[82, 22, 6C, 73]
+[34, DE, F1, 2E]
+[1D, 39, FB, 5A]
+After InverseShiftRows (Round 5):
+[59, 4A, C8, FC]
+[73, 82, 22, 6C]
+[F1, 2E, 34, DE]
+[39, FB, 5A, 1D]
+After InverseSubBytes (Round 5):
+[15, 5C, B1, 55]
+[8F, 11, 94, B8]
+[2B, C3, 28, 9C]
+[5B, 63, 46, DE]
+After AddRoundKey (Round 5):
+[D6, 4F, 13, 8E]
+[D5, 00, 21, 56]
+[9C, 31, BE, CC]
+[BB, 85, FA, FE]
+After InverseMixColumns (Round 5):
+[FC, 50, 1E, CD]
+[FB, 22, AE, 14]
+[FE, C3, 5F, 40]
+[DD, 4A, 99, 73]
+After InverseShiftRows (Round 4):
+[FC, 50, 1E, CD]
+[14, FB, 22, AE]
+[5F, 40, FE, C3]
+[4A, 99, 73, DD]
+After InverseSubBytes (Round 4):
+[55, 6C, E9, 80]
+[9B, 63, 94, BE]
+[84, 72, 0C, 33]
+[5C, F9, 8F, C9]
+After AddRoundKey (Round 4):
+[BF, BC, 58, F9]
+[75, 28, 30, E5]
+[ED, 37, 68, F5]
+[0A, FF, D5, 55]
+After InverseMixColumns (Round 4):
+[3D, 1F, 6F, DA]
+[E7, ED, 1E, 18]
+[35, 2C, EE, B5]
+[C2, 82, 4A, CB]
+After InverseShiftRows (Round 3):
+[3D, 1F, 6F, DA]
+[18, E7, ED, 1E]
+[EE, B5, 35, 2C]
+[82, 4A, CB, C2]
+After InverseSubBytes (Round 3):
+[8B, CB, 06, 7A]
+[34, B0, 53, E9]
+[99, D2, D9, 42]
+[11, 5C, 59, A8]
+After AddRoundKey (Round 3):
+[7F, F1, 67, B2]
+[E0, 15, BC, 16]
+[44, FE, F8, E0]
+[AF, 0C, 05, 6E]
+After InverseMixColumns (Round 3):
+[4F, B8, 8D, D3]
+[6D, 1A, EB, 7B]
+[9C, 9B, 5E, D5]
+[CA, 2F, 1E, 57]
+After InverseShiftRows (Round 2):
+[4F, B8, 8D, D3]
+[7B, 6D, 1A, EB]
+[5E, D5, 9C, 9B]
+[2F, 1E, 57, CA]
+After InverseSubBytes (Round 2):
+[92, 9A, B4, A9]
+[03, B3, 43, 3C]
+[9D, B5, 1C, E8]
+[4E, E9, DA, 10]
+After AddRoundKey (Round 2):
+[A8, 54, EF, 00]
+[3B, C2, 09, 2C]
+[F8, 44, 11, 6B]
+[23, 07, D6, 8A]
+After InverseMixColumns (Round 2):
+[F0, 04, DF, 10]
+[F8, CB, 5A, F3]
+[30, A5, 63, FA]
+[70, BF, C7, D4]
+After InverseShiftRows (Round 1):
+[F0, 04, DF, 10]
+[F3, F8, CB, 5A]
+[63, FA, 30, A5]
+[BF, C7, D4, 70]
+After InverseSubBytes (Round 1):
+[17, 30, EF, 7C]
+[7E, E1, 59, 46]
+[00, 14, 08, 29]
+[F4, 31, 19, D0]
+After AddRoundKey (Round 1):
+[91, C4, 7A, 8E]
+[5F, A8, 62, 1C]
+[F5, 80, F4, A7]
+[10, B2, FB, 46]
+After InverseMixColumns (Round 1):
+[F5, 8F, EB, D3]
+[5F, 08, A8, C4]
+[C7, 77, 4B, 1C]
+[46, AE, 1F, 78]
+After InverseShiftRows (Final Round):
+[F5, 8F, EB, D3]
+[C4, 5F, 08, A8]
+[4B, 1C, C7, 77]
+[AE, 1F, 78, 46]
+After InverseSubBytes (Final Round):
+[77, 73, 3C, A9]
+[88, 84, BF, 6F]
+[CC, C4, 31, 02]
+[BE, CB, C1, 98]
+After Final AddRoundKey:
+[1F, 01, 5D, CE]
+[E9, EC, CD, 0E]
+[AB, A5, 59, 70]
+[DF, AC, A0, EC]
+Decrypted Block: 1F E9 AB DF 01 EC A5 AC 5D CD 59 A0 CE 0E 70 EC
+
+Processing Block 2 of 3
+Block Content: F9 78 25 BB 6F 40 F5 57 24 DA 37 F0 FC 16 F2 DA
+Initial State:
+[F9, 6F, 24, FC]
+[78, 40, DA, 16]
+[25, F5, 37, F2]
+[BB, 57, F0, DA]
+After Initial AddRoundKey:
+[C9, FF, EB, 01]
+[85, 02, C4, 50]
+[46, 24, A9, 5A]
+[80, 84, EC, DA]
+After InverseShiftRows (Round 9):
+[C9, FF, EB, 01]
+[50, 85, 02, C4]
+[A9, 5A, 46, 24]
+[84, EC, DA, 80]
+After InverseSubBytes (Round 9):
+[12, 7D, 3C, 09]
+[6C, 67, 6A, 88]
+[B7, 46, 98, A6]
+[4F, 83, 7A, 3A]
+After AddRoundKey (Round 9):
+[7E, DD, 63, 3B]
+[94, D8, 36, D0]
+[48, F4, D7, 90]
+[57, 6B, B5, 26]
+After InverseMixColumns (Round 9):
+[75, 55, BB, EF]
+[0A, 5C, 41, 26]
+[B2, 53, 61, FE]
+[38, C0, AC, 6A]
+After InverseShiftRows (Round 8):
+[75, 55, BB, EF]
+[26, 0A, 5C, 41]
+[61, FE, B2, 53]
+[C0, AC, 6A, 38]
+After InverseSubBytes (Round 8):
+[3F, ED, FE, 61]
+[23, A3, A7, F8]
+[D8, 0C, 3E, 50]
+[1F, AA, 58, 76]
+After AddRoundKey (Round 8):
+[BA, 21, 01, 0C]
+[6D, E4, 44, FC]
+[41, 41, C3, 29]
+[3B, 5A, 7F, A5]
+After InverseMixColumns (Round 8):
+[7C, 5F, DE, D2]
+[C4, 0F, CD, 83]
+[C6, 98, F5, 0F]
+[D3, 16, 1F, 22]
+After InverseShiftRows (Round 7):
+[7C, 5F, DE, D2]
+[83, C4, 0F, CD]
+[F5, 0F, C6, 98]
+[16, 1F, 22, D3]
+After InverseSubBytes (Round 7):
+[01, 84, 9C, 7F]
+[41, 88, FB, 80]
+[77, FB, C7, E2]
+[FF, CB, 94, A9]
+After AddRoundKey (Round 7):
+[90, CD, AF, ED]
+[50, 81, 5F, 67]
+[51, 2F, 77, 66]
+[94, 1F, 43, 5D]
+After InverseMixColumns (Round 7):
+[0F, 41, A7, B6]
+[42, 39, C1, C3]
+[C4, 5B, EC, 44]
+[8C, 5F, 4E, 80]
+After InverseShiftRows (Round 6):
+[0F, 41, A7, B6]
+[C3, 42, 39, C1]
+[EC, 44, C4, 5B]
+[5F, 4E, 80, 8C]
+After InverseSubBytes (Round 6):
+[FB, F8, 89, 79]
+[33, F6, 5B, DD]
+[83, 86, 88, 57]
+[84, B6, 3A, F0]
+After AddRoundKey (Round 6):
+[30, 20, F3, D8]
+[3A, EE, F6, 9E]
+[83, 74, EC, 63]
+[DD, 09, 39, D3]
+After InverseMixColumns (Round 6):
+[1C, B0, 8F, 89]
+[20, 2C, D9, 57]
+[07, 99, 2B, C5]
+[6F, B6, AD, ED]
+After InverseShiftRows (Round 5):
+[1C, B0, 8F, 89]
+[57, 20, 2C, D9]
+[2B, C5, 07, 99]
+[B6, AD, ED, 6F]
+After InverseSubBytes (Round 5):
+[C4, FC, 73, F2]
+[DA, 54, 42, E5]
+[0B, 07, 38, F9]
+[79, 18, 53, 06]
+After AddRoundKey (Round 5):
+[07, EF, D1, 29]
+[80, 45, F7, 0B]
+[BC, F5, AE, A9]
+[99, FE, EF, 26]
+After InverseMixColumns (Round 5):
+[0D, 16, 08, E9]
+[59, 3A, 57, 52]
+[E9, 55, B9, 28]
+[1F, D8, 81, 3E]
+After InverseShiftRows (Round 4):
+[0D, 16, 08, E9]
+[52, 59, 3A, 57]
+[B9, 28, E9, 55]
+[D8, 81, 3E, 1F]
+After InverseSubBytes (Round 4):
+[F3, FF, BF, EB]
+[48, 15, A2, DA]
+[DB, EE, EB, ED]
+[2D, 91, D1, CB]
+After AddRoundKey (Round 4):
+[19, 2F, 0E, 92]
+[A6, 5E, 06, 81]
+[B2, AB, 8F, 2B]
+[7B, 97, 8B, 57]
+After InverseMixColumns (Round 4):
+[0D, F8, 40, 5C]
+[3C, B5, 61, 81]
+[4A, E6, D9, 3B]
+[0D, E6, F4, 89]
+After InverseShiftRows (Round 3):
+[0D, F8, 40, 5C]
+[81, 3C, B5, 61]
+[D9, 3B, 4A, E6]
+[E6, F4, 89, 0D]
+After InverseSubBytes (Round 3):
+[F3, E1, 72, A7]
+[91, 6D, D2, D8]
+[E5, 49, 5C, F5]
+[F5, BA, F2, F3]
+After AddRoundKey (Round 3):
+[07, DB, 13, 6F]
+[45, C8, 3D, 27]
+[38, 65, 7D, 57]
+[4B, EA, AE, 35]
+After InverseMixColumns (Round 3):
+[DD, 23, B8, 7E]
+[25, 11, 93, EE]
+[80, BE, 37, 12]
+[49, 10, E1, A8]
+After InverseShiftRows (Round 2):
+[DD, 23, B8, 7E]
+[EE, 25, 11, 93]
+[37, 12, 80, BE]
+[10, E1, A8, 49]
+After InverseSubBytes (Round 2):
+[C9, 32, 9A, 8A]
+[99, C2, E3, 22]
+[B2, 39, 3A, 5A]
+[7C, E0, 6F, A4]
+After AddRoundKey (Round 2):
+[F3, FC, C1, 23]
+[A1, B3, A9, 32]
+[D7, C8, 37, D9]
+[11, 0E, 63, 3E]
+After InverseMixColumns (Round 2):
+[9F, 1F, 23, C3]
+[E3, 2A, 4C, C8]
+[88, 22, AD, CE]
+[60, 9E, FE, 33]
+After InverseShiftRows (Round 1):
+[9F, 1F, 23, C3]
+[C8, E3, 2A, 4C]
+[AD, CE, 88, 22]
+[9E, FE, 33, 60]
+After InverseSubBytes (Round 1):
+[6E, CB, 32, 33]
+[B1, 4D, 95, 5D]
+[18, EC, 97, 94]
+[DF, 0C, 66, 90]
+After AddRoundKey (Round 1):
+[E8, 3F, A7, C1]
+[90, 04, AE, 07]
+[ED, 78, 6B, 1A]
+[3B, 8F, 84, 06]
+After InverseMixColumns (Round 1):
+[A5, B8, 3F, 47]
+[59, 10, 00, 69]
+[E7, 7C, 24, 33]
+[B5, 18, FD, C7]
+After InverseShiftRows (Final Round):
+[A5, B8, 3F, 47]
+[69, 59, 10, 00]
+[24, 33, E7, 7C]
+[18, FD, C7, B5]
+After InverseSubBytes (Final Round):
+[29, 9A, 25, 16]
+[E4, 15, 7C, 52]
+[A6, 66, B0, 01]
+[34, 21, 31, D2]
+After Final AddRoundKey:
+[41, E8, 44, 71]
+[85, 7D, 0E, 33]
+[C1, 07, D8, 73]
+[55, 46, 50, A6]
+Decrypted Block: 41 85 C1 55 E8 7D 07 46 44 0E D8 50 71 33 73 A6
+
+Processing Block 3 of 3
+Block Content: 3B F6 AA 59 C3 F3 61 31 98 C6 48 62 24 55 17 BE
+Initial State:
+[3B, C3, 98, 24]
+[F6, F3, C6, 55]
+[AA, 61, 48, 17]
+[59, 31, 62, BE]
+After Initial AddRoundKey:
+[0B, 53, 57, D9]
+[0B, B1, D8, 13]
+[C9, B0, D6, BF]
+[62, E2, 7E, BE]
+After InverseShiftRows (Round 9):
+[0B, 53, 57, D9]
+[13, 0B, B1, D8]
+[D6, BF, C9, B0]
+[E2, 7E, BE, 62]
+After InverseSubBytes (Round 9):
+[9E, 50, DA, E5]
+[82, 9E, 56, 2D]
+[4A, F4, 12, FC]
+[3B, 8A, 5A, AB]
+After AddRoundKey (Round 9):
+[F2, F0, 85, D7]
+[7A, 21, 0A, 75]
+[B5, 46, 5D, CA]
+[23, 62, 95, B7]
+After InverseMixColumns (Round 9):
+[10, BB, 84, 81]
+[6E, E4, A7, 48]
+[6B, FC, D2, 39]
+[0B, 56, B6, 2F]
+After InverseShiftRows (Round 8):
+[10, BB, 84, 81]
+[48, 6E, E4, A7]
+[D2, 39, 6B, FC]
+[56, B6, 2F, 0B]
+After InverseSubBytes (Round 8):
+[7C, FE, 4F, 91]
+[D4, 45, AE, 89]
+[7F, 5B, 05, 55]
+[B9, 79, 4E, 9E]
+After AddRoundKey (Round 8):
+[F9, 32, B0, FC]
+[9A, 02, 4D, 8D]
+[E6, 16, F8, 2C]
+[9D, 89, 69, 4D]
+After InverseMixColumns (Round 8):
+[9B, 62, 4B, E3]
+[A6, 90, 8D, 69]
+[B4, 03, DB, 13]
+[91, 5E, 71, 89]
+After InverseShiftRows (Round 7):
+[9B, 62, 4B, E3]
+[69, A6, 90, 8D]
+[DB, 13, B4, 03]
+[5E, 71, 89, 91]
+After InverseSubBytes (Round 7):
+[E8, AB, CC, 4D]
+[E4, C5, 96, B4]
+[9F, 82, C6, D5]
+[9D, 2C, F2, AC]
+After AddRoundKey (Round 7):
+[79, E2, FF, DF]
+[F5, CC, 32, 53]
+[B9, 56, 76, 51]
+[F6, F8, 25, 58]
+After InverseMixColumns (Round 7):
+[D6, B4, 6E, 13]
+[E0, DF, E4, BA]
+[8B, 1B, C0, 8C]
+[7E, F0, D4, A0]
+After InverseShiftRows (Round 6):
+[D6, B4, 6E, 13]
+[BA, E0, DF, E4]
+[C0, 8C, 8B, 1B]
+[F0, D4, A0, 7E]
+After InverseSubBytes (Round 6):
+[4A, C6, 45, 82]
+[C0, A0, EF, AE]
+[1F, F0, CE, 44]
+[17, 19, 47, 8A]
+After AddRoundKey (Round 6):
+[81, 1E, 3F, 23]
+[C9, B8, 42, ED]
+[1F, 02, AA, 70]
+[4E, A6, 44, A9]
+After InverseMixColumns (Round 6):
+[8E, 2B, C0, 5C]
+[85, BD, F6, 68]
+[22, 33, 68, 21]
+[30, A7, CD, 02]
+After InverseShiftRows (Round 5):
+[8E, 2B, C0, 5C]
+[68, 85, BD, F6]
+[68, 21, 22, 33]
+[A7, CD, 02, 30]
+After InverseSubBytes (Round 5):
+[E6, 0B, 1F, A7]
+[F7, 67, CD, D6]
+[F7, 7B, 94, 66]
+[89, 80, 6A, 08]
+After AddRoundKey (Round 5):
+[25, 18, BD, 7C]
+[AD, 76, 78, 38]
+[40, 89, 02, 36]
+[69, 66, D6, 28]
+After InverseMixColumns (Round 5):
+[7F, 53, 7F, 7B]
+[8F, 36, 9B, D8]
+[43, DB, E2, 85]
+[12, 3F, 17, 7C]
+After InverseShiftRows (Round 4):
+[7F, 53, 7F, 7B]
+[D8, 8F, 36, 9B]
+[E2, 85, 43, DB]
+[3F, 17, 7C, 12]
+After InverseSubBytes (Round 4):
+[6B, 50, 6B, 03]
+[2D, 73, 24, E8]
+[3B, 67, 64, 9F]
+[25, 87, 01, 39]
+After AddRoundKey (Round 4):
+[81, 80, DA, 7A]
+[C3, 38, 80, B3]
+[52, 22, 00, 59]
+[73, 81, 5B, A5]
+After InverseMixColumns (Round 4):
+[32, 96, 22, F9]
+[5A, 1D, D3, A2]
+[27, 02, FA, B0]
+[2C, 92, 0A, DE]
+After InverseShiftRows (Round 3):
+[32, 96, 22, F9]
+[A2, 5A, 1D, D3]
+[FA, B0, 27, 02]
+[92, 0A, DE, 2C]
+After InverseSubBytes (Round 3):
+[A1, 35, 94, 69]
+[1A, 46, DE, A9]
+[14, FC, 3D, 6A]
+[74, A3, 9C, 42]
+After AddRoundKey (Round 3):
+[55, 0F, F5, A1]
+[CE, E3, 31, 56]
+[C9, D0, 1C, C8]
+[CA, F3, C0, 84]
+After InverseMixColumns (Round 3):
+[0A, 70, 37, FF]
+[E4, 28, 5A, 00]
+[BD, 2A, EE, FB]
+[CB, BD, 9B, BF]
+After InverseShiftRows (Round 2):
+[0A, 70, 37, FF]
+[00, E4, 28, 5A]
+[EE, FB, BD, 2A]
+[BD, 9B, BF, CB]
+After InverseSubBytes (Round 2):
+[A3, D0, B2, 7D]
+[52, AE, EE, 46]
+[99, 63, CD, 95]
+[CD, E8, F4, 59]
+After AddRoundKey (Round 2):
+[99, 1E, E9, D4]
+[6A, DF, A4, 56]
+[FC, 92, C0, 16]
+[A0, 06, F8, C3]
+After InverseMixColumns (Round 2):
+[4B, 4A, 27, 37]
+[F8, C7, F7, 6D]
+[6B, 6C, E4, 5B]
+[77, B4, 41, 56]
+After InverseShiftRows (Round 1):
+[4B, 4A, 27, 37]
+[6D, F8, C7, F7]
+[E4, 5B, 6B, 6C]
+[B4, 41, 56, 77]
+After InverseSubBytes (Round 1):
+[CC, 5C, 3D, B2]
+[B3, E1, 31, 26]
+[AE, 57, 05, B8]
+[C6, F8, B9, 02]
+After AddRoundKey (Round 1):
+[4A, A8, A8, 40]
+[92, A8, 0A, 7C]
+[5B, C3, F9, 36]
+[22, 7B, 5B, 94]
+After InverseMixColumns (Round 1):
+[7B, 10, A8, F9]
+[33, 10, A8, 67]
+[33, 10, F9, A8]
+[DA, A8, F9, A8]
+After InverseShiftRows (Final Round):
+[7B, 10, A8, F9]
+[67, 33, 10, A8]
+[F9, A8, 33, 10]
+[A8, F9, A8, DA]
+After InverseSubBytes (Final Round):
+[03, 7C, 6F, 69]
+[0A, 66, 7C, 6F]
+[69, 6F, 66, 7C]
+[6F, 69, 6F, 7A]
+After Final AddRoundKey:
+[6B, 0E, 0E, 0E]
+[6B, 0E, 0E, 0E]
+[0E, 0E, 0E, 0E]
+[0E, 0E, 0E, 0E]
+Decrypted Block: 6B 6B 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E 0E
+
+Final Decrypted Result: ��쥬]�Y��p�A��U�}FD�Pq3s�kk
